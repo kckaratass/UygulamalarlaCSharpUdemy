@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.Form1.resources
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.Properties.Resources.resources
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\bin\Debug\Variables_Sting.exe.config
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\bin\Debug\Variables_Sting.exe
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\bin\Debug\Variables_Sting.pdb
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.exe
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.pdb
+C:\Users\kadir\source\repos\Variables_Sting\Variables_Sting\obj\Debug\Variables_Sting.exe.config

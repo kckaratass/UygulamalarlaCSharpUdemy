@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\bin\Debug\Class_Book.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\bin\Debug\Class_Book.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\bin\Debug\Class_Book.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Class_Book\Class_Book\obj\Debug\Class_Book.exe.config

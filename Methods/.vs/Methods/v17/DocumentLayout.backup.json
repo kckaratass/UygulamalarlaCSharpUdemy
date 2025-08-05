@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Methods\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E60B70C4-D1D5-46BD-819F-37A479B85EBE}|Methods\\Methods.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\methods\\methods\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E60B70C4-D1D5-46BD-819F-37A479B85EBE}|Methods\\Methods.csproj|solutionrelative:methods\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E60B70C4-D1D5-46BD-819F-37A479B85EBE}|Methods\\Methods.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\methods\\methods\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E60B70C4-D1D5-46BD-819F-37A479B85EBE}|Methods\\Methods.csproj|solutionrelative:methods\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Methods\\Methods\\Form1.cs",
+              "RelativeDocumentMoniker": "Methods\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Methods\\Methods\\Form1.cs [Design]*",
+              "RelativeToolTip": "Methods\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:36:38.64Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Methods\\Methods\\Form1.cs",
+              "RelativeDocumentMoniker": "Methods\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Methods\\Methods\\Form1.cs*",
+              "RelativeToolTip": "Methods\\Form1.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:27:02.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\bin\Debug\klavyeden_int_degisken_alma.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\bin\Debug\klavyeden_int_degisken_alma.exe
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\bin\Debug\klavyeden_int_degisken_alma.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.exe
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\klavyeden_int_degisken_alma\klavyeden_int_degisken_alma\obj\Debug\klavyeden_int_degisken_alma.exe.config

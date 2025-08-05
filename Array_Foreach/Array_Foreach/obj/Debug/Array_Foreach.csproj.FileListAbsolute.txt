@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\bin\Debug\Array_Foreach.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\bin\Debug\Array_Foreach.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\bin\Debug\Array_Foreach.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Array_Foreach\Array_Foreach\obj\Debug\Array_Foreach.exe.config

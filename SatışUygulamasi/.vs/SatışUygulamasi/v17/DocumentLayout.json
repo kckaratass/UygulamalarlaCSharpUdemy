@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4674B5E0-A2F1-4B69-ACB3-9E12FD18DB98}|Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi.csproj|C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\sat\u0131\u015Fuygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4674B5E0-A2F1-4B69-ACB3-9E12FD18DB98}|Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi.csproj|solutionrelative:sat\u0131\u015Fuygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4674B5E0-A2F1-4B69-ACB3-9E12FD18DB98}|Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\sat\u0131\u015Fuygulamasi\\sat\u0131\u015Fuygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4674B5E0-A2F1-4B69-ACB3-9E12FD18DB98}|Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi.csproj|solutionrelative:sat\u0131\u015Fuygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4674B5E0-A2F1-4B69-ACB3-9E12FD18DB98}|Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\sat\u0131\u015Fuygulamasi\\sat\u0131\u015Fuygulamasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4674B5E0-A2F1-4B69-ACB3-9E12FD18DB98}|Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi.csproj|solutionrelative:sat\u0131\u015Fuygulamasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi\\Form1.cs",
+              "RelativeDocumentMoniker": "Sat\u0131\u015FUygulamasi\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi\\Form1.cs",
+              "RelativeToolTip": "Sat\u0131\u015FUygulamasi\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:11:50.595Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi\\Program.cs",
+              "RelativeDocumentMoniker": "Sat\u0131\u015FUygulamasi\\Program.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi\\Program.cs",
+              "RelativeToolTip": "Sat\u0131\u015FUygulamasi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T08:16:05.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi\\Form1.cs",
+              "RelativeDocumentMoniker": "Sat\u0131\u015FUygulamasi\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Sat\u0131\u015FUygulamasi\\Sat\u0131\u015FUygulamasi\\Form1.cs [Design]",
+              "RelativeToolTip": "Sat\u0131\u015FUygulamasi\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:09:04.336Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\obj\Debug\Ornek_Console.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\obj\Debug\Ornek_Console.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\bin\Debug\Ornek_Console.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\bin\Debug\Ornek_Console.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\bin\Debug\Ornek_Console.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\obj\Debug\Ornek_Console.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\obj\Debug\Ornek_Console.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Ornek_Console\Ornek_Console\obj\Debug\Ornek_Console.exe.config

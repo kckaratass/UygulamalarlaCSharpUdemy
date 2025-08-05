@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\bin\Debug\ÖğrenciNotOrtamalası.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\bin\Debug\ÖğrenciNotOrtamalası.exe
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\bin\Debug\ÖğrenciNotOrtamalası.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.exe
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\ÖğrenciNotOrtamalası\ÖğrenciNotOrtamalası\obj\Debug\ÖğrenciNotOrtamalası.exe.config

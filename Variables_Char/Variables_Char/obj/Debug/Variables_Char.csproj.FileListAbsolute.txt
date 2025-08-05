@@ -1,0 +1,10 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\bin\Debug\Variables_Char.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\bin\Debug\Variables_Char.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\bin\Debug\Variables_Char.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_Char\Variables_Char\obj\Debug\Variables_Char.pdb

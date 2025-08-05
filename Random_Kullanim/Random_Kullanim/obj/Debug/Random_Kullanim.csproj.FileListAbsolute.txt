@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\bin\Debug\Random_Kullanim.exe.config
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\bin\Debug\Random_Kullanim.exe
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\bin\Debug\Random_Kullanim.pdb
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.Form1.resources
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.Properties.Resources.resources
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.exe
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.pdb
+C:\Users\kadir\source\repos\CSharpUdemyMY\Random_Kullanim\Random_Kullanim\obj\Debug\Random_Kullanim.exe.config

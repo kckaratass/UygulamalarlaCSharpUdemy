@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler_Arrays", "Diziler_Arrays\Diziler_Arrays.csproj", "{18E89E28-E910-42C3-A0E6-EC683CF63205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E89E28-E910-42C3-A0E6-EC683CF63205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E89E28-E910-42C3-A0E6-EC683CF63205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E89E28-E910-42C3-A0E6-EC683CF63205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E89E28-E910-42C3-A0E6-EC683CF63205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49BA1C6B-C42D-4925-BD02-F4939934E15D}
+	EndGlobalSection
+EndGlobal

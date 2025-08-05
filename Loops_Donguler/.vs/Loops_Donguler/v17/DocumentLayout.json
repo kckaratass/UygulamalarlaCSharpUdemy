@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Loops_Donguler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{677C87D0-C1DD-425B-997D-3CE6704FB611}|Loops_Donguler\\Loops_Donguler.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\loops_donguler\\loops_donguler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{677C87D0-C1DD-425B-997D-3CE6704FB611}|Loops_Donguler\\Loops_Donguler.csproj|solutionrelative:loops_donguler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{677C87D0-C1DD-425B-997D-3CE6704FB611}|Loops_Donguler\\Loops_Donguler.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\loops_donguler\\loops_donguler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677C87D0-C1DD-425B-997D-3CE6704FB611}|Loops_Donguler\\Loops_Donguler.csproj|solutionrelative:loops_donguler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Loops_Donguler\\Loops_Donguler\\Form1.cs",
+              "RelativeDocumentMoniker": "Loops_Donguler\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Loops_Donguler\\Loops_Donguler\\Form1.cs",
+              "RelativeToolTip": "Loops_Donguler\\Form1.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwGcAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:37:44.41Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Loops_Donguler\\Loops_Donguler\\Form1.cs",
+              "RelativeDocumentMoniker": "Loops_Donguler\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Loops_Donguler\\Loops_Donguler\\Form1.cs [Design]",
+              "RelativeToolTip": "Loops_Donguler\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:27:05.863Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

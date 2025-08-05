@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\bin\Debug\KDV_Uygulaması.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\bin\Debug\KDV_Uygulaması.exe
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\bin\Debug\KDV_Uygulaması.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.exe
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\KDV_Uygulaması\KDV_Uygulaması\obj\Debug\KDV_Uygulaması.exe.config

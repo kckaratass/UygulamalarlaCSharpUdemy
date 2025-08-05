@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\bin\Debug\Diziler_Arrays.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\bin\Debug\Diziler_Arrays.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\bin\Debug\Diziler_Arrays.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Diziler_Arrays\Diziler_Arrays\obj\Debug\Diziler_Arrays.exe.config

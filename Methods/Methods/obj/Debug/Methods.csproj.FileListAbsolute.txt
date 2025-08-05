@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\bin\Debug\Methods.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\bin\Debug\Methods.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\bin\Debug\Methods.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Methods\Methods\obj\Debug\Methods.exe.config

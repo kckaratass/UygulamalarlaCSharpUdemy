@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\bin\Debug\Tİmer.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\bin\Debug\Tİmer.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\bin\Debug\Tİmer.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Tİmer\Tİmer\obj\Debug\Tİmer.exe.config

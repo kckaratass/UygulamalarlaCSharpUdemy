@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\bin\Debug\SatışUygulamasi.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\bin\Debug\SatışUygulamasi.exe
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\bin\Debug\SatışUygulamasi.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.exe
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\SatışUygulamasi\SatışUygulamasi\obj\Debug\SatışUygulamasi.exe.config

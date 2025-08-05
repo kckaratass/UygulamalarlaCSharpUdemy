@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadir\\source\\repos\\CSharpUdemyMY\\Class_Book\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{406D965D-DC09-464F-B309-7A484D87705C}|Class_Book\\Class_Book.csproj|c:\\users\\kadir\\source\\repos\\csharpudemymy\\class_book\\class_book\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{406D965D-DC09-464F-B309-7A484D87705C}|Class_Book\\Class_Book.csproj|solutionrelative:class_book\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{406D965D-DC09-464F-B309-7A484D87705C}|Class_Book\\Class_Book.csproj|C:\\Users\\kadir\\source\\repos\\CSharpUdemyMY\\Class_Book\\class_book\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{406D965D-DC09-464F-B309-7A484D87705C}|Class_Book\\Class_Book.csproj|solutionrelative:class_book\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "book.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\CSharpUdemyMY\\Class_Book\\Class_Book\\book.cs",
+              "RelativeDocumentMoniker": "Class_Book\\book.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\CSharpUdemyMY\\Class_Book\\Class_Book\\book.cs",
+              "RelativeToolTip": "Class_Book\\book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:57:40.138Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\CSharpUdemyMY\\Class_Book\\Class_Book\\Form1.cs",
+              "RelativeDocumentMoniker": "Class_Book\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\CSharpUdemyMY\\Class_Book\\Class_Book\\Form1.cs",
+              "RelativeToolTip": "Class_Book\\Form1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:52:30.368Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

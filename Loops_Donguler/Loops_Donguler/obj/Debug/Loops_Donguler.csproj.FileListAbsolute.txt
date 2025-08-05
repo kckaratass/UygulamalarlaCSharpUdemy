@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\bin\Debug\Loops_Donguler.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\bin\Debug\Loops_Donguler.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\bin\Debug\Loops_Donguler.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Loops_Donguler\Loops_Donguler\obj\Debug\Loops_Donguler.exe.config

@@ -1,0 +1,12 @@
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\bin\Debug\Captcha.exe.config
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\bin\Debug\Captcha.exe
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\bin\Debug\Captcha.pdb
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.Form1.resources
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.Properties.Resources.resources
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.exe
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.pdb
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.exe.config
+C:\Users\kadir\source\repos\CSharpUdemyMY\Captcha\Captcha\obj\Debug\Captcha.Form2.resources

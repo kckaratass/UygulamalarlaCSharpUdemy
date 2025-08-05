@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\bin\Debug\Loop_While.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\bin\Debug\Loop_While.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\bin\Debug\Loop_While.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Loop_While\Loop_While\obj\Debug\Loop_While.exe.config

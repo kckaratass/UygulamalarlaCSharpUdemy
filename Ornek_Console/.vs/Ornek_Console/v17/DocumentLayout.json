@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5567FD51-CF8B-4FAE-9C98-EB390CAE0833}|Ornek_Console\\Ornek_Console.csproj|C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\ornek_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5567FD51-CF8B-4FAE-9C98-EB390CAE0833}|Ornek_Console\\Ornek_Console.csproj|solutionrelative:ornek_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5567FD51-CF8B-4FAE-9C98-EB390CAE0833}|Ornek_Console\\Ornek_Console.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\ornek_console\\ornek_console\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5567FD51-CF8B-4FAE-9C98-EB390CAE0833}|Ornek_Console\\Ornek_Console.csproj|solutionrelative:ornek_console\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5567FD51-CF8B-4FAE-9C98-EB390CAE0833}|Ornek_Console\\Ornek_Console.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\ornek_console\\ornek_console\\kimlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5567FD51-CF8B-4FAE-9C98-EB390CAE0833}|Ornek_Console\\Ornek_Console.csproj|solutionrelative:ornek_console\\kimlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kimlik.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\Ornek_Console\\Kimlik.cs",
+              "RelativeDocumentMoniker": "Ornek_Console\\Kimlik.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\Ornek_Console\\Kimlik.cs",
+              "RelativeToolTip": "Ornek_Console\\Kimlik.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:28:59.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ogrenci.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\Ornek_Console\\Ogrenci.cs",
+              "RelativeDocumentMoniker": "Ornek_Console\\Ogrenci.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\Ornek_Console\\Ogrenci.cs",
+              "RelativeToolTip": "Ornek_Console\\Ogrenci.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:49:41.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\Ornek_Console\\Program.cs",
+              "RelativeDocumentMoniker": "Ornek_Console\\Program.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Ornek_Console\\Ornek_Console\\Program.cs",
+              "RelativeToolTip": "Ornek_Console\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:43:17.704Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

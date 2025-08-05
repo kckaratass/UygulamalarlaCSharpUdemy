@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\bin\Debug\timer_2.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\bin\Debug\timer_2.exe
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\bin\Debug\timer_2.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.exe
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\timer_2\timer_2\obj\Debug\timer_2.exe.config

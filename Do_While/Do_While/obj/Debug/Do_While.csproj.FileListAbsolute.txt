@@ -1,0 +1,10 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\bin\Debug\Do_While.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\bin\Debug\Do_While.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\bin\Debug\Do_While.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Do_While\Do_While\obj\Debug\Do_While.pdb

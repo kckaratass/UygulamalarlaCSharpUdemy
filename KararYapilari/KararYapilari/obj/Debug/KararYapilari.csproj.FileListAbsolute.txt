@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\bin\Debug\KararYapilari.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\bin\Debug\KararYapilari.exe
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\bin\Debug\KararYapilari.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.exe
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\KararYapilari\KararYapilari\obj\Debug\KararYapilari.exe.config

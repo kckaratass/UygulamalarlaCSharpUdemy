@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Degiskenlerde_Islemler_Ornek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEFFCFD-450E-47DE-B414-D5C74424DA87}|Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\degiskenlerde_islemler_ornek\\degiskenlerde_islemler_ornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEFFCFD-450E-47DE-B414-D5C74424DA87}|Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek.csproj|solutionrelative:degiskenlerde_islemler_ornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEFFCFD-450E-47DE-B414-D5C74424DA87}|Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek.csproj|c:\\users\\kadir\\source\\repos\\udemy c# my\\degiskenlerde_islemler_ornek\\degiskenlerde_islemler_ornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FEFFCFD-450E-47DE-B414-D5C74424DA87}|Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek.csproj|solutionrelative:degiskenlerde_islemler_ornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek\\Form1.cs",
+              "RelativeDocumentMoniker": "Degiskenlerde_Islemler_Ornek\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek\\Form1.cs",
+              "RelativeToolTip": "Degiskenlerde_Islemler_Ornek\\Form1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwB4AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:42:03.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek\\Form1.cs",
+              "RelativeDocumentMoniker": "Degiskenlerde_Islemler_Ornek\\Form1.cs",
+              "ToolTip": "C:\\Users\\kadir\\source\\repos\\Udemy C# MY\\Degiskenlerde_Islemler_Ornek\\Degiskenlerde_Islemler_Ornek\\Form1.cs [Design]",
+              "RelativeToolTip": "Degiskenlerde_Islemler_Ornek\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:36:34.11Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

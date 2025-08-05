@@ -1,0 +1,10 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\bin\Debug\Degiskenlerde_Islemler_Ornek.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\bin\Debug\Degiskenlerde_Islemler_Ornek.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\bin\Debug\Degiskenlerde_Islemler_Ornek.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Degiskenlerde_Islemler_Ornek\Degiskenlerde_Islemler_Ornek\obj\Debug\Degiskenlerde_Islemler_Ornek.pdb

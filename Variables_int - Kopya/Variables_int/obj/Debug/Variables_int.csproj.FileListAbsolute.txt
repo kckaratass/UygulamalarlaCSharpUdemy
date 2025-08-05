@@ -1,0 +1,11 @@
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\bin\Debug\Variables_int.exe.config
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\bin\Debug\Variables_int.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\bin\Debug\Variables_int.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.Form1.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.Properties.Resources.resources
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.csproj.GenerateResource.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.exe
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.pdb
+C:\Users\kadir\source\repos\Udemy C# MY\Variables_int\Variables_int\obj\Debug\Variables_int.exe.config

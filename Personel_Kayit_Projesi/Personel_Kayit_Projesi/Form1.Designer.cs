@@ -288,6 +288,7 @@
             this.btnistatistik.TabIndex = 5;
             this.btnistatistik.Text = "İstatistik";
             this.btnistatistik.UseVisualStyleBackColor = true;
+            this.btnistatistik.Click += new System.EventHandler(this.btnistatistik_Click);
             // 
             // btnTemizle
             // 
@@ -309,6 +310,7 @@
             this.btnGüncelle.TabIndex = 3;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.UseVisualStyleBackColor = true;
+            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // btnSil
             // 
@@ -319,6 +321,7 @@
             this.btnSil.TabIndex = 2;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnKaydet
             // 

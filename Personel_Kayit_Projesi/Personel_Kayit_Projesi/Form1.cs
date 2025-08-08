@@ -117,5 +117,39 @@ namespace Personel_Kayit_Projesi
                 radioButton2.Checked = true;
             }
         }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komutSil = new SqlCommand("Delete from Tbl_Personel Where PerId = @k1",baglanti);
+            komutSil.Parameters.AddWithValue("@k1",txtId.Text);
+            komutSil.ExecuteNonQuery();
+            MessageBox.Show("Kayıt Silindi","Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            baglanti.Close();
+        }
+
+        private void btnGüncelle_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komutGuncelle = new SqlCommand("Update Tbl_Personel Set PerAd = @a1, PerSoyad = @a2, PerSehir = @a3, PerMaas = @a4, PerDurum = @a5, PerMeslek = @a6 WHERE PerId = @a7" , baglanti);
+            komutGuncelle.Parameters.AddWithValue("@a1", txtAd.Text);
+            komutGuncelle.Parameters.AddWithValue("@a2", txtSoyad.Text);
+            komutGuncelle.Parameters.AddWithValue("@a3", cmbSehir.Text);
+            komutGuncelle.Parameters.AddWithValue("@a4", mskMaas.Text);
+            komutGuncelle.Parameters.AddWithValue("@a5", label8.Text);
+            komutGuncelle.Parameters.AddWithValue("@a6", txtMeslek.Text);
+            komutGuncelle.Parameters.AddWithValue("@a7", txtId.Text);
+            komutGuncelle.ExecuteNonQuery();
+            MessageBox.Show("Personel Bilgi Güncellendi","Bilgi",MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            baglanti.Close();
+            
+        }
+
+        private void btnistatistik_Click(object sender, EventArgs e)
+        {
+            FrmIstatistik frm = new FrmIstatistik();
+            frm.Show();
+        }
     }
 }

@@ -1,4 +1,4 @@
-Uygulamalarla C# - Udemy Kurs Projeleri
+📚 Uygulamalarla C# - Udemy Kurs Projeleri
 Bu repo, Murat Yücedağ'ın Udemy'deki "Uygulamalarla C#" kursunu takip ederken Visual Studio 2022 kullanılarak geliştirdiğim uygulamaları içermektedir.
 
 Her klasör, ayrı bir C# Windows Forms veya Console uygulamasına aittir ve kurs boyunca işlenen konulara göre isimlendirilmiştir.
@@ -78,7 +78,8 @@ Tüm projeler .NET Framework ile hazırlanmıştır.
 
 Visual Studio 2022 kullanılarak derlenmiştir.
 
-Kodlar öğrenim amaçlıdır.
+Kodlar tamamen öğrenim amaçlıdır.
 
 ✍️ Geliştirici
 👤 @kckaratass
+

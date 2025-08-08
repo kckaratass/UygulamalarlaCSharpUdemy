@@ -1,7 +1,7 @@
 Uygulamalarla C# - Udemy Kurs Projeleri
-Bu repo, Murat Yücedağ'ın Udemy'deki "Uygulamalarla C#" kursunu takip ederken Visual Studio 2022 kullanılarak geliştirdiğim Windows Forms ve Console uygulamalarını içermektedir.
+Bu repo, Murat Yücedağ'ın Udemy'deki "Uygulamalarla C#" kursunu takip ederken Visual Studio 2022 kullanılarak geliştirdiğim uygulamaları içermektedir.
 
-Her klasör, kurs boyunca işlenen konulara göre isimlendirilmiş ayrı bir C# projesini temsil eder.
+Her klasör, ayrı bir C# Windows Forms veya Console uygulamasına aittir ve kurs boyunca işlenen konulara göre isimlendirilmiştir.
 
 💡 İçerik
 🔤 Temel Konular
@@ -42,16 +42,14 @@ Timer / timer_2
 
 MenuStrip_Kullanimi
 
+Dinamik_Arac (Dinamik şekilde buton, label ve textbox ekleme)
+
+Point_Uygulamalar (PictureBox konumu değiştirme)
+
 Matematik_Fonksiyonları
 
-Point_Uygulamalar (PictureBox konumunu değiştirme)
-
-Dinamik_Arac (Dinamik buton, label, textbox ekleme)
-
-Sıralama_Yapisi (Enum kullanımı)
-
 🛒 Mini Projeler
-SatışUygulamasi / SatışUygulaması
+SatışUygulamasi
 
 KDV_Uygulaması
 
@@ -61,26 +59,26 @@ Proje_Pasta_Pişirme_Sürec_Uyg
 
 Ornek_Console / Ornek_Console2
 
-📊 Gelişmiş Projeler
-Personel_Kayit_Projesi
-
-Giriş ekranı
-
-Grafikler sayfası
-
-İstatistik sayfası
-
 📚 Diğer Projeler
 Class_Book / Class_Ornek
 
+Sıralama_Yapisi (Enum kullanımı)
+
 Uygulamalar / Uygulamalar - Kopya
 
-📌 Notlar
-Projeler .NET Framework ile hazırlanmıştır.
+📊 Personel Kayıt Projesi
+Giriş Ekranı
 
-Visual Studio 2022 kullanılarak geliştirilmiştir.
+Grafikler Sayfası
+
+İstatistik Sayfası
+
+📌 Notlar
+Tüm projeler .NET Framework ile hazırlanmıştır.
+
+Visual Studio 2022 kullanılarak derlenmiştir.
 
 Kodlar öğrenim amaçlıdır.
 
 ✍️ Geliştirici
-@kckaratass
+👤 @kckaratass

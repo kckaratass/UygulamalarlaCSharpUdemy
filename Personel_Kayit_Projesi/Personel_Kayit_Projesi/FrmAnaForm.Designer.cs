@@ -1,6 +1,6 @@
 ﻿namespace Personel_Kayit_Projesi
 {
-    partial class Form1
+    partial class FrmAnaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnaForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.mskMaas = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -96,9 +96,9 @@
             this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(11, 6);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(358, 286);
             this.groupBox1.TabIndex = 222;
             this.groupBox1.TabStop = false;
@@ -107,7 +107,7 @@
             // mskMaas
             // 
             this.mskMaas.Location = new System.Drawing.Point(152, 171);
-            this.mskMaas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mskMaas.Margin = new System.Windows.Forms.Padding(2);
             this.mskMaas.Mask = "0000";
             this.mskMaas.Name = "mskMaas";
             this.mskMaas.Size = new System.Drawing.Size(128, 29);
@@ -128,7 +128,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(205, 199);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(75, 26);
             this.radioButton2.TabIndex = 13;
@@ -141,7 +141,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(152, 199);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(57, 26);
             this.radioButton1.TabIndex = 12;
@@ -203,7 +203,7 @@
             // txtSoyad
             // 
             this.txtSoyad.Location = new System.Drawing.Point(152, 103);
-            this.txtSoyad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(128, 29);
             this.txtSoyad.TabIndex = 3;
@@ -212,7 +212,7 @@
             // 
             this.cmbSehir.FormattingEnabled = true;
             this.cmbSehir.Location = new System.Drawing.Point(152, 135);
-            this.cmbSehir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbSehir.Margin = new System.Windows.Forms.Padding(2);
             this.cmbSehir.Name = "cmbSehir";
             this.cmbSehir.Size = new System.Drawing.Size(128, 30);
             this.cmbSehir.TabIndex = 4;
@@ -220,7 +220,7 @@
             // txtMeslek
             // 
             this.txtMeslek.Location = new System.Drawing.Point(152, 231);
-            this.txtMeslek.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMeslek.Margin = new System.Windows.Forms.Padding(2);
             this.txtMeslek.Name = "txtMeslek";
             this.txtMeslek.Size = new System.Drawing.Size(128, 29);
             this.txtMeslek.TabIndex = 6;
@@ -228,7 +228,7 @@
             // txtAd
             // 
             this.txtAd.Location = new System.Drawing.Point(152, 70);
-            this.txtAd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(2);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(128, 29);
             this.txtAd.TabIndex = 2;
@@ -236,7 +236,7 @@
             // txtId
             // 
             this.txtId.Location = new System.Drawing.Point(152, 37);
-            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(128, 29);
             this.txtId.TabIndex = 1;
@@ -261,9 +261,9 @@
             this.groupBox2.Controls.Add(this.btnKaydet);
             this.groupBox2.Controls.Add(this.btnListele);
             this.groupBox2.Location = new System.Drawing.Point(374, 6);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(271, 286);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
@@ -272,17 +272,18 @@
             // btnGrafikler
             // 
             this.btnGrafikler.Location = new System.Drawing.Point(62, 244);
-            this.btnGrafikler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGrafikler.Margin = new System.Windows.Forms.Padding(2);
             this.btnGrafikler.Name = "btnGrafikler";
             this.btnGrafikler.Size = new System.Drawing.Size(162, 29);
             this.btnGrafikler.TabIndex = 6;
             this.btnGrafikler.Text = "Grafikler";
             this.btnGrafikler.UseVisualStyleBackColor = true;
+            this.btnGrafikler.Click += new System.EventHandler(this.btnGrafikler_Click);
             // 
             // btnistatistik
             // 
             this.btnistatistik.Location = new System.Drawing.Point(62, 210);
-            this.btnistatistik.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnistatistik.Margin = new System.Windows.Forms.Padding(2);
             this.btnistatistik.Name = "btnistatistik";
             this.btnistatistik.Size = new System.Drawing.Size(162, 29);
             this.btnistatistik.TabIndex = 5;
@@ -293,7 +294,7 @@
             // btnTemizle
             // 
             this.btnTemizle.Location = new System.Drawing.Point(62, 176);
-            this.btnTemizle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(2);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(162, 29);
             this.btnTemizle.TabIndex = 4;
@@ -304,7 +305,7 @@
             // btnGüncelle
             // 
             this.btnGüncelle.Location = new System.Drawing.Point(62, 142);
-            this.btnGüncelle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGüncelle.Margin = new System.Windows.Forms.Padding(2);
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.Size = new System.Drawing.Size(162, 29);
             this.btnGüncelle.TabIndex = 3;
@@ -315,7 +316,7 @@
             // btnSil
             // 
             this.btnSil.Location = new System.Drawing.Point(62, 108);
-            this.btnSil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(2);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(162, 29);
             this.btnSil.TabIndex = 2;
@@ -326,7 +327,7 @@
             // btnKaydet
             // 
             this.btnKaydet.Location = new System.Drawing.Point(62, 75);
-            this.btnKaydet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnKaydet.Margin = new System.Windows.Forms.Padding(2);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(162, 29);
             this.btnKaydet.TabIndex = 1;
@@ -337,7 +338,7 @@
             // btnListele
             // 
             this.btnListele.Location = new System.Drawing.Point(62, 41);
-            this.btnListele.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnListele.Margin = new System.Windows.Forms.Padding(2);
             this.btnListele.Name = "btnListele";
             this.btnListele.Size = new System.Drawing.Size(162, 29);
             this.btnListele.TabIndex = 0;
@@ -349,9 +350,9 @@
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Location = new System.Drawing.Point(15, 296);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(787, 189);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
@@ -372,7 +373,7 @@
             this.dataGridView1.DataSource = this.tblPersonelBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(2, 24);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(783, 163);
@@ -450,7 +451,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(656, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(146, 129);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -472,7 +473,7 @@
             this.label8.Text = "label8";
             this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
             // 
-            // Form1
+            // FrmAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -485,7 +486,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Corbel", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form1";
+            this.Name = "FrmAnaForm";
             this.Text = "İşlemler";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

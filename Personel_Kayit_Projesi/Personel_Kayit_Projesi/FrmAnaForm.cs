@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace Personel_Kayit_Projesi
 {
-    public partial class Form1 : Form
+    public partial class FrmAnaForm : Form
     {
-        public Form1()
+        public FrmAnaForm()
         {
             InitializeComponent();
         }
@@ -149,6 +149,12 @@ namespace Personel_Kayit_Projesi
         private void btnistatistik_Click(object sender, EventArgs e)
         {
             FrmIstatistik frm = new FrmIstatistik();
+            frm.Show();
+        }
+
+        private void btnGrafikler_Click(object sender, EventArgs e)
+        {
+            FrmGrafikler frm = new FrmGrafikler();
             frm.Show();
         }
     }

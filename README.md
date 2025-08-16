@@ -1,60 +1,85 @@
-# Uygulamalarla C# - Udemy Kurs Projeleri
+📚 Uygulamalarla C# - Udemy Kurs Projeleri
+Bu repo, Murat Yücedağ'ın Udemy'deki "Uygulamalarla C#" kursunu takip ederken Visual Studio 2022 kullanılarak geliştirdiğim uygulamaları içermektedir.
 
-Bu repo, Murat Yücedağ'ın Udemy'deki **“Uygulamalarla C#”** kursunu takip ederken Visual Studio 2022 kullanılarak geliştirdiğim uygulamaları içermektedir.
+Her klasör, ayrı bir C# Windows Forms veya Console uygulamasına aittir ve kurs boyunca işlenen konulara göre isimlendirilmiştir.
 
-Her klasör, ayrı bir C# Windows Forms ya da Console uygulamasına aittir ve kurs boyunca işlenen konulara göre isimlendirilmiştir.
+💡 İçerik
+🔤 Temel Konular
+Variables_int / Variables_Double / Variables_Char / Variables_String
 
-## 💡 İçerik
+Degiskenlerde_Islemler_Ornek
 
-Aşağıdaki konuları kapsayan örnek projeler yer almaktadır:
+klavyeden_int_degisken_alma
 
-### 🔤 Temel Konular
-- Variables_int / Double / Char / String
-- Degiskenlerde_Islemler_Ornek
-- klavyeden_int_degisken_alma
+🔁 Döngüler ve Karar Yapıları
+KararYapilari / Karar_Yapilari_Egzersiz / Karar_Yapilari_Pratik
 
-### 🔁 Döngüler ve Karar Yapıları
-- KararYapilari / Karar_Yapilari_Egzersiz / Karar_Yapilari_Pratik
-- Switch_Case
-- Loops_Donguler
-- Loop_While / Do_While
-- Array_Foreach / Diziler_Arrays
+Switch_Case
 
-### ⚙️ Metotlar
-- Methods
-- Return_Methods
+Loops_Donguler
 
-### 🎮 Uygulama Örnekleri
-- Bilgi_Yarismasi
-- ProgressBar
-- Random_Kullanim
-- Chart_Grafik
-- Captcha
-- Timer / timer_2
-- MenuStrip_Kullanimi
+Loop_While / Do_While
 
-### 🛒 Mini Projeler
-- SatışUygulamasi
-- KDV_Uygulaması
-- Proje_Pasta_Pişirme_Sürec_Uyg
-- ÖğrenciNotOrtamalası
-- Ornek_Console / Ornek_Console2
+Array_Foreach / Diziler_Arrays
 
-### 📚 Diğer Projeler
-- Class_Book / Class_Ornek
-- Extra_Araclar
-- Uygulamalar / Uygulamalar - Kopya
+⚙️ Metotlar
+Methods
 
-## 📌 Notlar
+Return_Methods
 
-- Projeler .NET Framework ile hazırlanmıştır.
-- Visual Studio 2022 kullanılarak derlenmiştir.
-- Kodlar öğrenim amaçlıdır ve geliştirme sürecinde oluşturulmuştur.
+🎮 Uygulama Örnekleri
+Bilgi_Yarismasi
 
-## ✍️ Geliştirici
+ProgressBar
 
-**[@kckaratass](https://github.com/kckaratass)**
+Random_Kullanim
 
----
+Chart_Grafik
 
+Captcha
+
+Timer / timer_2
+
+MenuStrip_Kullanimi
+
+Dinamik_Arac (Dinamik şekilde buton, label ve textbox ekleme)
+
+Point_Uygulamalar (PictureBox konumu değiştirme)
+
+Matematik_Fonksiyonları
+
+🛒 Mini Projeler
+SatışUygulamasi
+
+KDV_Uygulaması
+
+Proje_Pasta_Pişirme_Sürec_Uyg
+
+ÖğrenciNotOrtamalası
+
+Ornek_Console / Ornek_Console2
+
+📚 Diğer Projeler
+Class_Book / Class_Ornek
+
+Sıralama_Yapisi (Enum kullanımı)
+
+Uygulamalar / Uygulamalar - Kopya
+
+📊 Personel Kayıt Projesi
+Giriş Ekranı
+
+Grafikler Sayfası
+
+İstatistik Sayfası
+
+📌 Notlar
+Tüm projeler .NET Framework ile hazırlanmıştır.
+
+Visual Studio 2022 kullanılarak derlenmiştir.
+
+Kodlar tamamen öğrenim amaçlıdır.
+
+✍️ Geliştirici
+👤 @kckaratass
 

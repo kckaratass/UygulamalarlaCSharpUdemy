@@ -41,7 +41,6 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnEditInfo = new System.Windows.Forms.Button();
             this.btnNotice = new System.Windows.Forms.Button();
-            this.btnInternet = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -141,7 +140,6 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.btnExit);
-            this.groupBox4.Controls.Add(this.btnInternet);
             this.groupBox4.Controls.Add(this.btnNotice);
             this.groupBox4.Controls.Add(this.btnEditInfo);
             this.groupBox4.Location = new System.Drawing.Point(26, 496);
@@ -153,39 +151,33 @@
             // 
             // btnEditInfo
             // 
+            this.btnEditInfo.BackColor = System.Drawing.Color.Lavender;
             this.btnEditInfo.Location = new System.Drawing.Point(18, 45);
             this.btnEditInfo.Name = "btnEditInfo";
             this.btnEditInfo.Size = new System.Drawing.Size(150, 38);
             this.btnEditInfo.TabIndex = 0;
             this.btnEditInfo.Text = "Bilgi Düzenle";
-            this.btnEditInfo.UseVisualStyleBackColor = true;
+            this.btnEditInfo.UseVisualStyleBackColor = false;
             // 
             // btnNotice
             // 
+            this.btnNotice.BackColor = System.Drawing.Color.Lavender;
             this.btnNotice.Location = new System.Drawing.Point(186, 45);
             this.btnNotice.Name = "btnNotice";
             this.btnNotice.Size = new System.Drawing.Size(150, 38);
             this.btnNotice.TabIndex = 1;
             this.btnNotice.Text = "Duyurular";
-            this.btnNotice.UseVisualStyleBackColor = true;
-            // 
-            // btnInternet
-            // 
-            this.btnInternet.Location = new System.Drawing.Point(18, 88);
-            this.btnInternet.Name = "btnInternet";
-            this.btnInternet.Size = new System.Drawing.Size(150, 38);
-            this.btnInternet.TabIndex = 2;
-            this.btnInternet.Text = "İnternet";
-            this.btnInternet.UseVisualStyleBackColor = true;
+            this.btnNotice.UseVisualStyleBackColor = false;
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(186, 88);
+            this.btnExit.BackColor = System.Drawing.Color.Lavender;
+            this.btnExit.Location = new System.Drawing.Point(18, 88);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(150, 38);
+            this.btnExit.Size = new System.Drawing.Size(318, 38);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Çıkış";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
             // FrmDoktorDetay
             // 
@@ -225,7 +217,6 @@
         private System.Windows.Forms.RichTextBox rchComplaint;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnInternet;
         private System.Windows.Forms.Button btnNotice;
         private System.Windows.Forms.Button btnEditInfo;
     }

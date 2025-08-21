@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHastaGiris));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,7 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(175, 9);
+            this.label1.Location = new System.Drawing.Point(106, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(335, 50);
             this.label1.TabIndex = 0;
@@ -50,7 +51,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(55, 83);
+            this.label2.Location = new System.Drawing.Point(136, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 28);
             this.label2.TabIndex = 1;
@@ -59,7 +60,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(139, 120);
+            this.label3.Location = new System.Drawing.Point(220, 115);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 28);
             this.label3.TabIndex = 2;
@@ -68,45 +69,50 @@
             // lnkSignUp
             // 
             this.lnkSignUp.AutoSize = true;
-            this.lnkSignUp.Location = new System.Drawing.Point(409, 207);
+            this.lnkSignUp.Location = new System.Drawing.Point(340, 207);
             this.lnkSignUp.Name = "lnkSignUp";
             this.lnkSignUp.Size = new System.Drawing.Size(75, 28);
             this.lnkSignUp.TabIndex = 3;
             this.lnkSignUp.TabStop = true;
             this.lnkSignUp.Text = "Üye Ol";
+            this.lnkSignUp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkSignUp_LinkClicked);
             // 
             // mskTC
             // 
-            this.mskTC.Location = new System.Drawing.Point(207, 81);
+            this.mskTC.Location = new System.Drawing.Point(288, 76);
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
-            this.mskTC.Size = new System.Drawing.Size(291, 36);
-            this.mskTC.TabIndex = 4;
+            this.mskTC.Size = new System.Drawing.Size(141, 36);
+            this.mskTC.TabIndex = 1;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(207, 123);
+            this.txtPassword.Location = new System.Drawing.Point(288, 118);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(291, 36);
-            this.txtPassword.TabIndex = 5;
+            this.txtPassword.Size = new System.Drawing.Size(141, 36);
+            this.txtPassword.TabIndex = 2;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Lavender;
-            this.btnLogin.Location = new System.Drawing.Point(370, 165);
+            this.btnLogin.Location = new System.Drawing.Point(301, 165);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(128, 39);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Giriş Yap";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // FrmHastaGiris
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
-            this.ClientSize = new System.Drawing.Size(695, 264);
+            this.ClientSize = new System.Drawing.Size(538, 264);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.mskTC);
@@ -115,9 +121,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "FrmHastaGiris";
-            this.Text = "FrmHastaGiris";
+            this.Text = "Hasta Giriş";
             this.ResumeLayout(false);
             this.PerformLayout();
 

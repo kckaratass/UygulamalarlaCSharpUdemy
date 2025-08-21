@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHastaKayit));
             this.txtSurname = new System.Windows.Forms.TextBox();
             this.mskTC = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,24 +46,24 @@
             // 
             // txtSurname
             // 
-            this.txtSurname.Location = new System.Drawing.Point(186, 99);
+            this.txtSurname.Location = new System.Drawing.Point(186, 74);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(172, 36);
-            this.txtSurname.TabIndex = 9;
+            this.txtSurname.TabIndex = 2;
             // 
             // mskTC
             // 
-            this.mskTC.Location = new System.Drawing.Point(186, 140);
+            this.mskTC.Location = new System.Drawing.Point(186, 115);
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(172, 36);
-            this.mskTC.TabIndex = 8;
+            this.mskTC.TabIndex = 3;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 102);
+            this.label3.Location = new System.Drawing.Point(40, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(140, 28);
             this.label3.TabIndex = 7;
@@ -71,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(72, 60);
+            this.label2.Location = new System.Drawing.Point(72, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 28);
             this.label2.TabIndex = 6;
@@ -80,7 +81,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(2, 186);
+            this.label1.Location = new System.Drawing.Point(2, 161);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(178, 28);
             this.label1.TabIndex = 11;
@@ -89,7 +90,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 146);
+            this.label4.Location = new System.Drawing.Point(34, 121);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(146, 28);
             this.label4.TabIndex = 10;
@@ -97,15 +98,15 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(186, 222);
+            this.txtPassword.Location = new System.Drawing.Point(186, 197);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(172, 36);
-            this.txtPassword.TabIndex = 17;
+            this.txtPassword.TabIndex = 5;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(118, 224);
+            this.label5.Location = new System.Drawing.Point(118, 199);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 28);
             this.label5.TabIndex = 15;
@@ -114,7 +115,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(29, 264);
+            this.label6.Location = new System.Drawing.Point(29, 239);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(151, 28);
             this.label6.TabIndex = 14;
@@ -122,18 +123,18 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(186, 57);
+            this.txtName.Location = new System.Drawing.Point(186, 32);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(172, 36);
-            this.txtName.TabIndex = 18;
+            this.txtName.TabIndex = 1;
             // 
             // mskPhoneNumber
             // 
-            this.mskPhoneNumber.Location = new System.Drawing.Point(186, 180);
+            this.mskPhoneNumber.Location = new System.Drawing.Point(186, 155);
             this.mskPhoneNumber.Mask = "(999) 000-0000";
             this.mskPhoneNumber.Name = "mskPhoneNumber";
             this.mskPhoneNumber.Size = new System.Drawing.Size(172, 36);
-            this.mskPhoneNumber.TabIndex = 20;
+            this.mskPhoneNumber.TabIndex = 4;
             // 
             // cmbGender
             // 
@@ -141,27 +142,30 @@
             this.cmbGender.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.cmbGender.Location = new System.Drawing.Point(186, 264);
+            this.cmbGender.Location = new System.Drawing.Point(186, 239);
             this.cmbGender.Name = "cmbGender";
             this.cmbGender.Size = new System.Drawing.Size(172, 36);
-            this.cmbGender.TabIndex = 21;
+            this.cmbGender.TabIndex = 6;
             // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Lavender;
-            this.btnLogin.Location = new System.Drawing.Point(186, 315);
+            this.btnLogin.Location = new System.Drawing.Point(186, 290);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(172, 39);
             this.btnLogin.TabIndex = 22;
             this.btnLogin.Text = "Kayıt Ol";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // FrmHastaKayit
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
-            this.ClientSize = new System.Drawing.Size(418, 504);
+            this.ClientSize = new System.Drawing.Size(418, 372);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.cmbGender);
             this.Controls.Add(this.mskPhoneNumber);
@@ -177,10 +181,10 @@
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmHastaKayit";
-            this.Text = "FrmHastaKayit";
-//            this.Load += new System.EventHandler(this.FrmHastaKayit_Load);
+            this.Text = "Hasta Kayıt";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -64,7 +64,7 @@
             this.cmbGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbGender.Name = "cmbGender";
             this.cmbGender.Size = new System.Drawing.Size(256, 36);
-            this.cmbGender.TabIndex = 34;
+            this.cmbGender.TabIndex = 6;
             // 
             // mskPhoneNumber
             // 
@@ -73,7 +73,7 @@
             this.mskPhoneNumber.Mask = "(999) 000-0000";
             this.mskPhoneNumber.Name = "mskPhoneNumber";
             this.mskPhoneNumber.Size = new System.Drawing.Size(256, 36);
-            this.mskPhoneNumber.TabIndex = 33;
+            this.mskPhoneNumber.TabIndex = 4;
             // 
             // txtName
             // 
@@ -81,7 +81,7 @@
             this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(256, 36);
-            this.txtName.TabIndex = 32;
+            this.txtName.TabIndex = 1;
             // 
             // txtPassword
             // 
@@ -89,7 +89,7 @@
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(256, 36);
-            this.txtPassword.TabIndex = 31;
+            this.txtPassword.TabIndex = 5;
             // 
             // label5
             // 
@@ -137,7 +137,7 @@
             this.txtSurname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(256, 36);
-            this.txtSurname.TabIndex = 26;
+            this.txtSurname.TabIndex = 2;
             // 
             // mskTC
             // 
@@ -146,7 +146,7 @@
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(256, 36);
-            this.mskTC.TabIndex = 25;
+            this.mskTC.TabIndex = 3;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -192,6 +192,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmBilgiDüzenle";
             this.Text = "FrmBilgiDüzenle";
+            this.Load += new System.EventHandler(this.FrmBilgiDüzenle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

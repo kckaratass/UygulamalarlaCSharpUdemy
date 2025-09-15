@@ -16,5 +16,11 @@ namespace Hastane_Yonetim_Projesi
         {
             InitializeComponent();
         }
+
+        public string TCno;
+        private void FrmBilgiDüzenle_Load(object sender, EventArgs e)
+        {
+            mskTC.Text = TCno;
+        }
     }
 }

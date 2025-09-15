@@ -34,6 +34,8 @@
             this.lblTC = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.lnkEditInformation = new System.Windows.Forms.LinkLabel();
             this.btnAppointment = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -110,6 +112,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtId);
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.lnkEditInformation);
             this.groupBox2.Controls.Add(this.btnAppointment);
             this.groupBox2.Controls.Add(this.label6);
@@ -119,25 +123,42 @@
             this.groupBox2.Controls.Add(this.cmbBranch);
             this.groupBox2.Location = new System.Drawing.Point(16, 223);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(319, 393);
+            this.groupBox2.Size = new System.Drawing.Size(319, 431);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Paneli";
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(91, 33);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(204, 36);
+            this.txtId.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(54, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 28);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Id:";
+            // 
             // lnkEditInformation
             // 
             this.lnkEditInformation.AutoSize = true;
-            this.lnkEditInformation.Location = new System.Drawing.Point(124, 370);
+            this.lnkEditInformation.Location = new System.Drawing.Point(124, 395);
             this.lnkEditInformation.Name = "lnkEditInformation";
             this.lnkEditInformation.Size = new System.Drawing.Size(163, 28);
             this.lnkEditInformation.TabIndex = 6;
             this.lnkEditInformation.TabStop = true;
             this.lnkEditInformation.Text = "Bilgileri Düzenle";
+            this.lnkEditInformation.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkEditInformation_LinkClicked);
             // 
             // btnAppointment
             // 
             this.btnAppointment.BackColor = System.Drawing.Color.Lavender;
-            this.btnAppointment.Location = new System.Drawing.Point(129, 333);
+            this.btnAppointment.Location = new System.Drawing.Point(129, 358);
             this.btnAppointment.Name = "btnAppointment";
             this.btnAppointment.Size = new System.Drawing.Size(158, 34);
             this.btnAppointment.TabIndex = 5;
@@ -147,7 +168,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 94);
+            this.label6.Location = new System.Drawing.Point(6, 117);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 28);
             this.label6.TabIndex = 5;
@@ -155,7 +176,7 @@
             // 
             // rchComplaint
             // 
-            this.rchComplaint.Location = new System.Drawing.Point(91, 135);
+            this.rchComplaint.Location = new System.Drawing.Point(91, 158);
             this.rchComplaint.Name = "rchComplaint";
             this.rchComplaint.Size = new System.Drawing.Size(204, 192);
             this.rchComplaint.TabIndex = 4;
@@ -164,15 +185,16 @@
             // cmbDoctor
             // 
             this.cmbDoctor.FormattingEnabled = true;
-            this.cmbDoctor.Location = new System.Drawing.Point(91, 93);
+            this.cmbDoctor.Location = new System.Drawing.Point(91, 116);
             this.cmbDoctor.Name = "cmbDoctor";
             this.cmbDoctor.Size = new System.Drawing.Size(204, 36);
             this.cmbDoctor.TabIndex = 4;
+            this.cmbDoctor.SelectedIndexChanged += new System.EventHandler(this.cmbDoctor_SelectedIndexChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 52);
+            this.label5.Location = new System.Drawing.Point(18, 75);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 28);
             this.label5.TabIndex = 3;
@@ -181,10 +203,11 @@
             // cmbBranch
             // 
             this.cmbBranch.FormattingEnabled = true;
-            this.cmbBranch.Location = new System.Drawing.Point(91, 51);
+            this.cmbBranch.Location = new System.Drawing.Point(91, 74);
             this.cmbBranch.Name = "cmbBranch";
             this.cmbBranch.Size = new System.Drawing.Size(204, 36);
             this.cmbBranch.TabIndex = 2;
+            this.cmbBranch.SelectedIndexChanged += new System.EventHandler(this.cmbBranch_SelectedIndexChanged);
             // 
             // groupBox3
             // 
@@ -211,7 +234,7 @@
             this.groupBox4.Controls.Add(this.dataGridView2);
             this.groupBox4.Location = new System.Drawing.Point(362, 358);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(630, 258);
+            this.groupBox4.Size = new System.Drawing.Size(630, 296);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Aktif Randevular";
@@ -224,7 +247,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(624, 223);
+            this.dataGridView2.Size = new System.Drawing.Size(624, 261);
             this.dataGridView2.TabIndex = 0;
             // 
             // FrmHastaDetay
@@ -232,7 +255,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
-            this.ClientSize = new System.Drawing.Size(1004, 639);
+            this.ClientSize = new System.Drawing.Size(1004, 661);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -273,5 +296,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.LinkLabel lnkEditInformation;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label label2;
     }
 }

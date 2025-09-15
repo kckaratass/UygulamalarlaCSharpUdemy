@@ -52,5 +52,34 @@ namespace Hastane_Yonetim_Projesi
             }
             bgl.baglanti().Close();
         }
+
+        private void cmbBranch_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbDoctor.Items.Clear();
+            
+            SqlCommand komut3 = new SqlCommand("Select DoktorAd, DoktorSoyad From Tbl_Doktorlar where DoktorBrans = @p1", bgl.baglanti());
+            komut3.Parameters.AddWithValue("@p1", cmbBranch.Text);
+            SqlDataReader dr3 = komut3.ExecuteReader();
+            while (dr3.Read())
+            {
+                cmbDoctor.Items.Add(dr3[0] + " " + dr3[1]);
+            }
+            bgl.baglanti().Close();
+        }
+
+        private void cmbDoctor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where RandevuBrans='" + cmbBranch.Text + "'", bgl.baglanti());
+            da.Fill(dt);
+            dataGridView2.DataSource = dt;
+        }
+
+        private void lnkEditInformation_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmBilgiDüzenle frmBilgiDüzenle = new FrmBilgiDüzenle();
+            frmBilgiDüzenle.TCno = lblTC.Text;
+            frmBilgiDüzenle.Show();
+        }
     }
 }

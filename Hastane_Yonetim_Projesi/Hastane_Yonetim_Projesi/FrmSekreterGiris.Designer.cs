@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSekreterGiris));
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.mskTC = new System.Windows.Forms.MaskedTextBox();
@@ -45,6 +46,7 @@
             this.btnLogin.TabIndex = 12;
             this.btnLogin.Text = "Giriş Yap";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPassword
             // 
@@ -52,6 +54,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(291, 36);
             this.txtPassword.TabIndex = 11;
+            this.txtPassword.Text = "1115";
             // 
             // mskTC
             // 
@@ -60,6 +63,7 @@
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(291, 36);
             this.mskTC.TabIndex = 10;
+            this.mskTC.Text = "11111111115";
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -94,6 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
             this.ClientSize = new System.Drawing.Size(693, 280);
             this.Controls.Add(this.btnLogin);
@@ -103,9 +108,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MinimizeBox = false;
             this.Name = "FrmSekreterGiris";
-            this.Text = "FrmSekreter";
+            this.Text = "Sekreter Giriş";
             this.ResumeLayout(false);
             this.PerformLayout();
 

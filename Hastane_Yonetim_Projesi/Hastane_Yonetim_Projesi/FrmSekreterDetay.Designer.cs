@@ -29,45 +29,45 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblTC = new System.Windows.Forms.Label();
             this.lblNameSurname = new System.Windows.Forms.Label();
+            this.lblTC = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rchNotice = new System.Windows.Forms.RichTextBox();
             this.btnCreate = new System.Windows.Forms.Button();
+            this.rchNotice = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.mskDate = new System.Windows.Forms.MaskedTextBox();
-            this.mskHour = new System.Windows.Forms.MaskedTextBox();
-            this.cmbBranch = new System.Windows.Forms.ComboBox();
-            this.cmbDoctor = new System.Windows.Forms.ComboBox();
-            this.mskTC = new System.Windows.Forms.MaskedTextBox();
-            this.chkDurum = new System.Windows.Forms.CheckBox();
-            this.btnSave = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.chkDurum = new System.Windows.Forms.CheckBox();
+            this.mskTC = new System.Windows.Forms.MaskedTextBox();
+            this.cmbDoctor = new System.Windows.Forms.ComboBox();
+            this.cmbBranch = new System.Windows.Forms.ComboBox();
+            this.mskHour = new System.Windows.Forms.MaskedTextBox();
+            this.mskDate = new System.Windows.Forms.MaskedTextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.btnDoctorPanel = new System.Windows.Forms.Button();
-            this.btnBranchPanel = new System.Windows.Forms.Button();
             this.btnAppointmentList = new System.Windows.Forms.Button();
+            this.btnBranchPanel = new System.Windows.Forms.Button();
+            this.btnDoctorPanel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.SuspendLayout();
@@ -85,23 +85,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sekreter Bilgi";
             // 
-            // label1
+            // lblNameSurname
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(58, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "TC No:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 28);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Adı Soyadı:";
+            this.lblNameSurname.AutoSize = true;
+            this.lblNameSurname.Location = new System.Drawing.Point(129, 92);
+            this.lblNameSurname.Name = "lblNameSurname";
+            this.lblNameSurname.Size = new System.Drawing.Size(93, 28);
+            this.lblNameSurname.TabIndex = 3;
+            this.lblNameSurname.Text = "Null Null";
             // 
             // lblTC
             // 
@@ -112,14 +103,23 @@
             this.lblTC.TabIndex = 2;
             this.lblTC.Text = "00000000000";
             // 
-            // lblNameSurname
+            // label2
             // 
-            this.lblNameSurname.AutoSize = true;
-            this.lblNameSurname.Location = new System.Drawing.Point(129, 92);
-            this.lblNameSurname.Name = "lblNameSurname";
-            this.lblNameSurname.Size = new System.Drawing.Size(93, 28);
-            this.lblNameSurname.TabIndex = 3;
-            this.lblNameSurname.Text = "Null Null";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(118, 28);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Adı Soyadı:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(58, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 28);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "TC No:";
             // 
             // groupBox2
             // 
@@ -132,14 +132,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Duyuru Oluştur";
             // 
-            // rchNotice
-            // 
-            this.rchNotice.Location = new System.Drawing.Point(20, 35);
-            this.rchNotice.Name = "rchNotice";
-            this.rchNotice.Size = new System.Drawing.Size(261, 238);
-            this.rchNotice.TabIndex = 0;
-            this.rchNotice.Text = "";
-            // 
             // btnCreate
             // 
             this.btnCreate.BackColor = System.Drawing.Color.Lavender;
@@ -149,6 +141,14 @@
             this.btnCreate.TabIndex = 1;
             this.btnCreate.Text = "Oluştur";
             this.btnCreate.UseVisualStyleBackColor = false;
+            // 
+            // rchNotice
+            // 
+            this.rchNotice.Location = new System.Drawing.Point(20, 35);
+            this.rchNotice.Name = "rchNotice";
+            this.rchNotice.Size = new System.Drawing.Size(261, 238);
+            this.rchNotice.TabIndex = 0;
+            this.rchNotice.Text = "";
             // 
             // groupBox3
             // 
@@ -175,128 +175,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Paneli";
             // 
-            // label5
+            // btnUpdate
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(75, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 28);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Id:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(46, 85);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 28);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Tarih:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(50, 129);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 28);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Saat:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(39, 169);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 28);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Branş:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(27, 213);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 28);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "Doktor:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(62, 253);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 28);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "T.C:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(27, 293);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(84, 28);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "Durum:";
-            // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(108, 40);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(149, 36);
-            this.txtId.TabIndex = 7;
-            // 
-            // mskDate
-            // 
-            this.mskDate.Location = new System.Drawing.Point(108, 82);
-            this.mskDate.Mask = "00/00/0000";
-            this.mskDate.Name = "mskDate";
-            this.mskDate.Size = new System.Drawing.Size(149, 36);
-            this.mskDate.TabIndex = 8;
-            this.mskDate.ValidatingType = typeof(System.DateTime);
-            // 
-            // mskHour
-            // 
-            this.mskHour.Location = new System.Drawing.Point(108, 124);
-            this.mskHour.Mask = "00:00";
-            this.mskHour.Name = "mskHour";
-            this.mskHour.Size = new System.Drawing.Size(149, 36);
-            this.mskHour.TabIndex = 9;
-            this.mskHour.ValidatingType = typeof(System.DateTime);
-            // 
-            // cmbBranch
-            // 
-            this.cmbBranch.FormattingEnabled = true;
-            this.cmbBranch.Location = new System.Drawing.Point(108, 166);
-            this.cmbBranch.Name = "cmbBranch";
-            this.cmbBranch.Size = new System.Drawing.Size(149, 36);
-            this.cmbBranch.TabIndex = 10;
-            // 
-            // cmbDoctor
-            // 
-            this.cmbDoctor.FormattingEnabled = true;
-            this.cmbDoctor.Location = new System.Drawing.Point(108, 208);
-            this.cmbDoctor.Name = "cmbDoctor";
-            this.cmbDoctor.Size = new System.Drawing.Size(149, 36);
-            this.cmbDoctor.TabIndex = 11;
-            // 
-            // mskTC
-            // 
-            this.mskTC.Location = new System.Drawing.Point(108, 250);
-            this.mskTC.Mask = "00000000000";
-            this.mskTC.Name = "mskTC";
-            this.mskTC.Size = new System.Drawing.Size(149, 36);
-            this.mskTC.TabIndex = 12;
-            this.mskTC.ValidatingType = typeof(int);
-            // 
-            // chkDurum
-            // 
-            this.chkDurum.AutoSize = true;
-            this.chkDurum.Location = new System.Drawing.Point(108, 293);
-            this.chkDurum.Name = "chkDurum";
-            this.chkDurum.Size = new System.Drawing.Size(98, 32);
-            this.chkDurum.TabIndex = 13;
-            this.chkDurum.Text = "Müsait";
-            this.chkDurum.UseVisualStyleBackColor = true;
+            this.btnUpdate.BackColor = System.Drawing.Color.Lavender;
+            this.btnUpdate.Location = new System.Drawing.Point(6, 331);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(271, 37);
+            this.btnUpdate.TabIndex = 15;
+            this.btnUpdate.Text = "Güncelle";
+            this.btnUpdate.UseVisualStyleBackColor = false;
             // 
             // btnSave
             // 
@@ -308,15 +195,128 @@
             this.btnSave.Text = "Kaydet";
             this.btnSave.UseVisualStyleBackColor = false;
             // 
-            // btnUpdate
+            // chkDurum
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.Lavender;
-            this.btnUpdate.Location = new System.Drawing.Point(6, 331);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(271, 37);
-            this.btnUpdate.TabIndex = 15;
-            this.btnUpdate.Text = "Güncelle";
-            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.chkDurum.AutoSize = true;
+            this.chkDurum.Location = new System.Drawing.Point(108, 293);
+            this.chkDurum.Name = "chkDurum";
+            this.chkDurum.Size = new System.Drawing.Size(98, 32);
+            this.chkDurum.TabIndex = 13;
+            this.chkDurum.Text = "Müsait";
+            this.chkDurum.UseVisualStyleBackColor = true;
+            // 
+            // mskTC
+            // 
+            this.mskTC.Location = new System.Drawing.Point(108, 250);
+            this.mskTC.Mask = "00000000000";
+            this.mskTC.Name = "mskTC";
+            this.mskTC.Size = new System.Drawing.Size(149, 36);
+            this.mskTC.TabIndex = 12;
+            this.mskTC.ValidatingType = typeof(int);
+            // 
+            // cmbDoctor
+            // 
+            this.cmbDoctor.FormattingEnabled = true;
+            this.cmbDoctor.Location = new System.Drawing.Point(108, 208);
+            this.cmbDoctor.Name = "cmbDoctor";
+            this.cmbDoctor.Size = new System.Drawing.Size(149, 36);
+            this.cmbDoctor.TabIndex = 11;
+            // 
+            // cmbBranch
+            // 
+            this.cmbBranch.FormattingEnabled = true;
+            this.cmbBranch.Location = new System.Drawing.Point(108, 166);
+            this.cmbBranch.Name = "cmbBranch";
+            this.cmbBranch.Size = new System.Drawing.Size(149, 36);
+            this.cmbBranch.TabIndex = 10;
+            // 
+            // mskHour
+            // 
+            this.mskHour.Location = new System.Drawing.Point(108, 124);
+            this.mskHour.Mask = "00:00";
+            this.mskHour.Name = "mskHour";
+            this.mskHour.Size = new System.Drawing.Size(149, 36);
+            this.mskHour.TabIndex = 9;
+            this.mskHour.ValidatingType = typeof(System.DateTime);
+            // 
+            // mskDate
+            // 
+            this.mskDate.Location = new System.Drawing.Point(108, 82);
+            this.mskDate.Mask = "00/00/0000";
+            this.mskDate.Name = "mskDate";
+            this.mskDate.Size = new System.Drawing.Size(149, 36);
+            this.mskDate.TabIndex = 8;
+            this.mskDate.ValidatingType = typeof(System.DateTime);
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(108, 40);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(149, 36);
+            this.txtId.TabIndex = 7;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(27, 293);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(84, 28);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "Durum:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(62, 253);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(49, 28);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "T.C:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(27, 213);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(84, 28);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Doktor:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(39, 169);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(72, 28);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Branş:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(50, 129);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 28);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Saat:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(46, 85);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 28);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Tarih:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(75, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 28);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Id:";
             // 
             // groupBox4
             // 
@@ -328,16 +328,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Branşlar";
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.dataGridView2);
-            this.groupBox5.Location = new System.Drawing.Point(606, 261);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(384, 347);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Doktorlar";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -347,6 +337,16 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(378, 206);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.dataGridView2);
+            this.groupBox5.Location = new System.Drawing.Point(606, 261);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(384, 347);
+            this.groupBox5.TabIndex = 4;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Doktorlar";
             // 
             // dataGridView2
             // 
@@ -370,15 +370,15 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Hızlı Erişim";
             // 
-            // btnDoctorPanel
+            // btnAppointmentList
             // 
-            this.btnDoctorPanel.BackColor = System.Drawing.Color.Lavender;
-            this.btnDoctorPanel.Location = new System.Drawing.Point(60, 39);
-            this.btnDoctorPanel.Name = "btnDoctorPanel";
-            this.btnDoctorPanel.Size = new System.Drawing.Size(152, 40);
-            this.btnDoctorPanel.TabIndex = 0;
-            this.btnDoctorPanel.Text = "Doktor Paneli";
-            this.btnDoctorPanel.UseVisualStyleBackColor = false;
+            this.btnAppointmentList.BackColor = System.Drawing.Color.Lavender;
+            this.btnAppointmentList.Location = new System.Drawing.Point(376, 39);
+            this.btnAppointmentList.Name = "btnAppointmentList";
+            this.btnAppointmentList.Size = new System.Drawing.Size(164, 40);
+            this.btnAppointmentList.TabIndex = 2;
+            this.btnAppointmentList.Text = "Randevu Liste";
+            this.btnAppointmentList.UseVisualStyleBackColor = false;
             // 
             // btnBranchPanel
             // 
@@ -390,15 +390,15 @@
             this.btnBranchPanel.Text = "Branş Paneli";
             this.btnBranchPanel.UseVisualStyleBackColor = false;
             // 
-            // btnAppointmentList
+            // btnDoctorPanel
             // 
-            this.btnAppointmentList.BackColor = System.Drawing.Color.Lavender;
-            this.btnAppointmentList.Location = new System.Drawing.Point(376, 39);
-            this.btnAppointmentList.Name = "btnAppointmentList";
-            this.btnAppointmentList.Size = new System.Drawing.Size(164, 40);
-            this.btnAppointmentList.TabIndex = 2;
-            this.btnAppointmentList.Text = "Randevu Liste";
-            this.btnAppointmentList.UseVisualStyleBackColor = false;
+            this.btnDoctorPanel.BackColor = System.Drawing.Color.Lavender;
+            this.btnDoctorPanel.Location = new System.Drawing.Point(60, 39);
+            this.btnDoctorPanel.Name = "btnDoctorPanel";
+            this.btnDoctorPanel.Size = new System.Drawing.Size(152, 40);
+            this.btnDoctorPanel.TabIndex = 0;
+            this.btnDoctorPanel.Text = "Doktor Paneli";
+            this.btnDoctorPanel.UseVisualStyleBackColor = false;
             // 
             // FrmSekreterDetay
             // 
@@ -416,14 +416,15 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmSekreterDetay";
             this.Text = "FrmSekreterDetay";
+            this.Load += new System.EventHandler(this.FrmSekreterDetay_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);

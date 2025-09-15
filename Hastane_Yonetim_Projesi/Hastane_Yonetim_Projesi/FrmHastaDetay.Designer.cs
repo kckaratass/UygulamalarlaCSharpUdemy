@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblTC = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.lblNameSurnam = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblTC = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cmbBranch = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.rchComplaint = new System.Windows.Forms.RichTextBox();
+            this.lnkEditInformation = new System.Windows.Forms.LinkLabel();
             this.btnAppointment = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.rchComplaint = new System.Windows.Forms.RichTextBox();
             this.cmbDoctor = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cmbBranch = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.lnkEditInformation = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,25 +68,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kişi Bilgi";
             // 
-            // label1
+            // lblNameSurnam
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 45);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "T.C NO:";
-            // 
-            // lblTC
-            // 
-            this.lblTC.AutoSize = true;
-            this.lblTC.Location = new System.Drawing.Point(102, 45);
-            this.lblTC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTC.Name = "lblTC";
-            this.lblTC.Size = new System.Drawing.Size(144, 28);
-            this.lblTC.TabIndex = 1;
-            this.lblTC.Text = "00000000000";
+            this.lblNameSurnam.AutoSize = true;
+            this.lblNameSurnam.Location = new System.Drawing.Point(134, 99);
+            this.lblNameSurnam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNameSurnam.Name = "lblNameSurnam";
+            this.lblNameSurnam.Size = new System.Drawing.Size(93, 28);
+            this.lblNameSurnam.TabIndex = 3;
+            this.lblNameSurnam.Text = "Null Null";
             // 
             // label3
             // 
@@ -98,15 +88,25 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Adı Soyadı:";
             // 
-            // lblNameSurnam
+            // lblTC
             // 
-            this.lblNameSurnam.AutoSize = true;
-            this.lblNameSurnam.Location = new System.Drawing.Point(134, 99);
-            this.lblNameSurnam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblNameSurnam.Name = "lblNameSurnam";
-            this.lblNameSurnam.Size = new System.Drawing.Size(93, 28);
-            this.lblNameSurnam.TabIndex = 3;
-            this.lblNameSurnam.Text = "Null Null";
+            this.lblTC.AutoSize = true;
+            this.lblTC.Location = new System.Drawing.Point(102, 45);
+            this.lblTC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTC.Name = "lblTC";
+            this.lblTC.Size = new System.Drawing.Size(144, 28);
+            this.lblTC.TabIndex = 1;
+            this.lblTC.Text = "00000000000";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 45);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 28);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "T.C NO:";
             // 
             // groupBox2
             // 
@@ -124,30 +124,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Paneli";
             // 
-            // cmbBranch
+            // lnkEditInformation
             // 
-            this.cmbBranch.FormattingEnabled = true;
-            this.cmbBranch.Location = new System.Drawing.Point(91, 51);
-            this.cmbBranch.Name = "cmbBranch";
-            this.cmbBranch.Size = new System.Drawing.Size(204, 36);
-            this.cmbBranch.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 52);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 28);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Branş:";
-            // 
-            // rchComplaint
-            // 
-            this.rchComplaint.Location = new System.Drawing.Point(91, 135);
-            this.rchComplaint.Name = "rchComplaint";
-            this.rchComplaint.Size = new System.Drawing.Size(204, 192);
-            this.rchComplaint.TabIndex = 4;
-            this.rchComplaint.Text = "";
+            this.lnkEditInformation.AutoSize = true;
+            this.lnkEditInformation.Location = new System.Drawing.Point(124, 370);
+            this.lnkEditInformation.Name = "lnkEditInformation";
+            this.lnkEditInformation.Size = new System.Drawing.Size(163, 28);
+            this.lnkEditInformation.TabIndex = 6;
+            this.lnkEditInformation.TabStop = true;
+            this.lnkEditInformation.Text = "Bilgileri Düzenle";
             // 
             // btnAppointment
             // 
@@ -168,6 +153,14 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Doktor:";
             // 
+            // rchComplaint
+            // 
+            this.rchComplaint.Location = new System.Drawing.Point(91, 135);
+            this.rchComplaint.Name = "rchComplaint";
+            this.rchComplaint.Size = new System.Drawing.Size(204, 192);
+            this.rchComplaint.TabIndex = 4;
+            this.rchComplaint.Text = "";
+            // 
             // cmbDoctor
             // 
             this.cmbDoctor.FormattingEnabled = true;
@@ -175,6 +168,23 @@
             this.cmbDoctor.Name = "cmbDoctor";
             this.cmbDoctor.Size = new System.Drawing.Size(204, 36);
             this.cmbDoctor.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(18, 52);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 28);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Branş:";
+            // 
+            // cmbBranch
+            // 
+            this.cmbBranch.FormattingEnabled = true;
+            this.cmbBranch.Location = new System.Drawing.Point(91, 51);
+            this.cmbBranch.Name = "cmbBranch";
+            this.cmbBranch.Size = new System.Drawing.Size(204, 36);
+            this.cmbBranch.TabIndex = 2;
             // 
             // groupBox3
             // 
@@ -186,16 +196,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Geçmişi";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.dataGridView2);
-            this.groupBox4.Location = new System.Drawing.Point(362, 358);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(630, 258);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Aktif Randevular";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -205,6 +205,16 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(624, 280);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.dataGridView2);
+            this.groupBox4.Location = new System.Drawing.Point(362, 358);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(630, 258);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Aktif Randevular";
             // 
             // dataGridView2
             // 
@@ -216,16 +226,6 @@
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(624, 223);
             this.dataGridView2.TabIndex = 0;
-            // 
-            // lnkEditInformation
-            // 
-            this.lnkEditInformation.AutoSize = true;
-            this.lnkEditInformation.Location = new System.Drawing.Point(124, 370);
-            this.lnkEditInformation.Name = "lnkEditInformation";
-            this.lnkEditInformation.Size = new System.Drawing.Size(163, 28);
-            this.lnkEditInformation.TabIndex = 6;
-            this.lnkEditInformation.TabStop = true;
-            this.lnkEditInformation.Text = "Bilgileri Düzenle";
             // 
             // FrmHastaDetay
             // 
@@ -241,13 +241,14 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmHastaDetay";
             this.Text = "Hasta Detay";
+            this.Load += new System.EventHandler(this.FrmHastaDetay_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 

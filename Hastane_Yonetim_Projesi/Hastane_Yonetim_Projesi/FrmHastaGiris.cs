@@ -36,6 +36,7 @@ namespace Hastane_Yonetim_Projesi
             if(dr.Read())
             {
                 FrmHastaDetay frmHastaDetay = new FrmHastaDetay();
+                frmHastaDetay.tc = mskTC.Text;
                 frmHastaDetay.Show();
                 this.Hide();
             }

@@ -142,6 +142,7 @@
             this.btnCreate.TabIndex = 1;
             this.btnCreate.Text = "Oluştur";
             this.btnCreate.UseVisualStyleBackColor = false;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // rchNotice
             // 
@@ -404,6 +405,7 @@
             this.btnDoctorPanel.TabIndex = 0;
             this.btnDoctorPanel.Text = "Doktor Paneli";
             this.btnDoctorPanel.UseVisualStyleBackColor = false;
+            this.btnDoctorPanel.Click += new System.EventHandler(this.btnDoctorPanel_Click);
             // 
             // FrmSekreterDetay
             // 

@@ -39,7 +39,6 @@
             this.btnCreate = new System.Windows.Forms.Button();
             this.rchNotice = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.chkDurum = new System.Windows.Forms.CheckBox();
             this.mskTC = new System.Windows.Forms.MaskedTextBox();
@@ -63,6 +62,7 @@
             this.btnAppointmentList = new System.Windows.Forms.Button();
             this.btnBranchPanel = new System.Windows.Forms.Button();
             this.btnDoctorPanel = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -154,7 +154,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.btnUpdate);
             this.groupBox3.Controls.Add(this.btnSave);
             this.groupBox3.Controls.Add(this.chkDurum);
             this.groupBox3.Controls.Add(this.mskTC);
@@ -172,31 +171,21 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Location = new System.Drawing.Point(317, 14);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(283, 488);
+            this.groupBox3.Size = new System.Drawing.Size(311, 488);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Paneli";
             // 
-            // btnUpdate
-            // 
-            this.btnUpdate.BackColor = System.Drawing.Color.Lavender;
-            this.btnUpdate.Location = new System.Drawing.Point(6, 331);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(271, 37);
-            this.btnUpdate.TabIndex = 15;
-            this.btnUpdate.Text = "Güncelle";
-            this.btnUpdate.UseVisualStyleBackColor = false;
-            // 
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.Lavender;
-            this.btnSave.Location = new System.Drawing.Point(6, 374);
+            this.btnSave.Location = new System.Drawing.Point(6, 331);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(271, 37);
-            this.btnSave.TabIndex = 14;
+            this.btnSave.TabIndex = 16;
             this.btnSave.Text = "Kaydet";
             this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // chkDurum
             // 
@@ -325,7 +314,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dataGridView1);
-            this.groupBox4.Location = new System.Drawing.Point(606, 14);
+            this.groupBox4.Location = new System.Drawing.Point(643, 14);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(384, 241);
             this.groupBox4.TabIndex = 3;
@@ -346,7 +335,7 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.dataGridView2);
-            this.groupBox5.Location = new System.Drawing.Point(606, 261);
+            this.groupBox5.Location = new System.Drawing.Point(646, 264);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(384, 347);
             this.groupBox5.TabIndex = 4;
@@ -371,7 +360,7 @@
             this.groupBox6.Controls.Add(this.btnDoctorPanel);
             this.groupBox6.Location = new System.Drawing.Point(10, 508);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(590, 100);
+            this.groupBox6.Size = new System.Drawing.Size(618, 100);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Hızlı Erişim";
@@ -379,7 +368,7 @@
             // btnAppointmentList
             // 
             this.btnAppointmentList.BackColor = System.Drawing.Color.Lavender;
-            this.btnAppointmentList.Location = new System.Drawing.Point(376, 39);
+            this.btnAppointmentList.Location = new System.Drawing.Point(323, 39);
             this.btnAppointmentList.Name = "btnAppointmentList";
             this.btnAppointmentList.Size = new System.Drawing.Size(164, 40);
             this.btnAppointmentList.TabIndex = 2;
@@ -390,7 +379,7 @@
             // btnBranchPanel
             // 
             this.btnBranchPanel.BackColor = System.Drawing.Color.Lavender;
-            this.btnBranchPanel.Location = new System.Drawing.Point(218, 39);
+            this.btnBranchPanel.Location = new System.Drawing.Point(167, 39);
             this.btnBranchPanel.Name = "btnBranchPanel";
             this.btnBranchPanel.Size = new System.Drawing.Size(152, 40);
             this.btnBranchPanel.TabIndex = 1;
@@ -401,7 +390,7 @@
             // btnDoctorPanel
             // 
             this.btnDoctorPanel.BackColor = System.Drawing.Color.Lavender;
-            this.btnDoctorPanel.Location = new System.Drawing.Point(60, 39);
+            this.btnDoctorPanel.Location = new System.Drawing.Point(11, 39);
             this.btnDoctorPanel.Name = "btnDoctorPanel";
             this.btnDoctorPanel.Size = new System.Drawing.Size(152, 40);
             this.btnDoctorPanel.TabIndex = 0;
@@ -409,12 +398,25 @@
             this.btnDoctorPanel.UseVisualStyleBackColor = false;
             this.btnDoctorPanel.Click += new System.EventHandler(this.btnDoctorPanel_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Lavender;
+            this.button1.Location = new System.Drawing.Point(503, 547);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 40);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Duyurular";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmSekreterDetay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
-            this.ClientSize = new System.Drawing.Size(1002, 642);
+            this.ClientSize = new System.Drawing.Size(1070, 642);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -424,6 +426,7 @@
             this.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MinimizeBox = false;
             this.Name = "FrmSekreterDetay";
             this.Text = "Sekreter Detay";
             this.Load += new System.EventHandler(this.FrmSekreterDetay_Load);
@@ -467,8 +470,6 @@
         private System.Windows.Forms.ComboBox cmbDoctor;
         private System.Windows.Forms.ComboBox cmbBranch;
         private System.Windows.Forms.MaskedTextBox mskHour;
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -477,5 +478,7 @@
         private System.Windows.Forms.Button btnAppointmentList;
         private System.Windows.Forms.Button btnBranchPanel;
         private System.Windows.Forms.Button btnDoctorPanel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSave;
     }
 }

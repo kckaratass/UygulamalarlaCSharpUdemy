@@ -27,5 +27,9 @@ namespace Hastane_Yonetim_Projesi
             dataGridView1.DataSource = dt;
 
         }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
     }
 }

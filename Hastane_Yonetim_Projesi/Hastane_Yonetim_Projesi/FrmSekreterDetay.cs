@@ -60,19 +60,6 @@ namespace Hastane_Yonetim_Projesi
             bgl.baglanti().Close();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            SqlCommand komutkaydet = new SqlCommand("insert into Tbl_Randevular (RandevuTarih, RandevuSaat, RandevuBrans, RandevuDoktor) values (@r1, @r2, @r3, @r4)", bgl.baglanti());
-            
-            komutkaydet.Parameters.AddWithValue("@r1", mskDate.Text);
-            komutkaydet.Parameters.AddWithValue("@r2", mskHour.Text);
-            komutkaydet.Parameters.AddWithValue("@r3", cmbBranch.Text);
-            komutkaydet.Parameters.AddWithValue("@r4", cmbDoctor.Text);
-            komutkaydet.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Randevu Oluşturuldu");
-        }
-
         private void cmbBranch_SelectedIndexChanged(object sender, EventArgs e)
         {
             cmbDoctor.Items.Clear();
@@ -113,6 +100,25 @@ namespace Hastane_Yonetim_Projesi
         {
             FrmRandevuListesi frmRandevuListesi = new FrmRandevuListesi();
             frmRandevuListesi.Show(); 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmDuyurular frmDuyurular = new FrmDuyurular();
+            frmDuyurular.Show();
+        }
+
+        private void btnSave_Click_1(object sender, EventArgs e)
+        {
+            SqlCommand komutkaydet = new SqlCommand("insert into Tbl_Randevular (RandevuTarih, RandevuSaat, RandevuBrans, RandevuDoktor) values (@r1, @r2, @r3, @r4)", bgl.baglanti());
+
+            komutkaydet.Parameters.AddWithValue("@r1", mskDate.Text);
+            komutkaydet.Parameters.AddWithValue("@r2", mskHour.Text);
+            komutkaydet.Parameters.AddWithValue("@r3", cmbBranch.Text);
+            komutkaydet.Parameters.AddWithValue("@r4", cmbDoctor.Text);
+            komutkaydet.ExecuteNonQuery();
+            bgl.baglanti().Close();
+            MessageBox.Show("Randevu Oluşturuldu");
         }
     }
 }

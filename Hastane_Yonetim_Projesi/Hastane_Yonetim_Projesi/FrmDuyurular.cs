@@ -22,7 +22,7 @@ namespace Hastane_Yonetim_Projesi
         private void FrmDuyurular_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Duyurlar",bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Duyurular",bgl.baglanti());
             da.Fill(dt);
             dataGridView1.DataSource = dt;
 

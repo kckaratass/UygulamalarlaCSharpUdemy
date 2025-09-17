@@ -101,5 +101,18 @@ namespace Hastane_Yonetim_Projesi
             FrmDoktorPaneli drp = new FrmDoktorPaneli();
             drp.Show();
         }
+
+        private void btnBranchPanel_Click(object sender, EventArgs e)
+        {
+            FrmBransPaneli frmBransPaneli = new FrmBransPaneli();
+            frmBransPaneli.Show();
+
+        }
+
+        private void btnAppointmentList_Click(object sender, EventArgs e)
+        {
+            FrmRandevuListesi frmRandevuListesi = new FrmRandevuListesi();
+            frmRandevuListesi.Show(); 
+        }
     }
 }

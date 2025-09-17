@@ -385,6 +385,7 @@
             this.btnAppointmentList.TabIndex = 2;
             this.btnAppointmentList.Text = "Randevu Liste";
             this.btnAppointmentList.UseVisualStyleBackColor = false;
+            this.btnAppointmentList.Click += new System.EventHandler(this.btnAppointmentList_Click);
             // 
             // btnBranchPanel
             // 
@@ -395,6 +396,7 @@
             this.btnBranchPanel.TabIndex = 1;
             this.btnBranchPanel.Text = "Branş Paneli";
             this.btnBranchPanel.UseVisualStyleBackColor = false;
+            this.btnBranchPanel.Click += new System.EventHandler(this.btnBranchPanel_Click);
             // 
             // btnDoctorPanel
             // 

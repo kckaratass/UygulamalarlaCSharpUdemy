@@ -53,7 +53,7 @@ Her klasör, ayrı bir **C# Windows Forms** veya **Console uygulamasına** aitti
 - Grafikler Sayfası  
 - İstatistik Sayfası  
 
-### 🏥 Hastane Yönetim Projesi *(Yeni)*
+### 🏥 Hastane Yönetim Projesi
 - Hasta, Doktor ve Sekreter giriş ekranları  
 - Randevu listesi görüntüleme  
 - Branş paneli  

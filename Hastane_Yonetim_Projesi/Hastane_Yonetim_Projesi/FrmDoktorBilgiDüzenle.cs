@@ -49,5 +49,55 @@ namespace Hastane_Yonetim_Projesi
             bgl.baglanti().Close();
             MessageBox.Show("Bilgileriniz Güncellendi");
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSurname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mskTC_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbBranch_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -74,6 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label3.Location = new System.Drawing.Point(19, 94);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(131, 28);
@@ -92,6 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label1.Location = new System.Drawing.Point(15, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 28);
@@ -153,7 +155,8 @@
             // 
             // btnExit
             // 
-            this.btnExit.BackColor = System.Drawing.Color.Lavender;
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnExit.Location = new System.Drawing.Point(18, 88);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(318, 38);
@@ -164,7 +167,8 @@
             // 
             // btnNotice
             // 
-            this.btnNotice.BackColor = System.Drawing.Color.Lavender;
+            this.btnNotice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnNotice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnNotice.Location = new System.Drawing.Point(186, 45);
             this.btnNotice.Name = "btnNotice";
             this.btnNotice.Size = new System.Drawing.Size(150, 38);
@@ -175,7 +179,8 @@
             // 
             // btnEditInfo
             // 
-            this.btnEditInfo.BackColor = System.Drawing.Color.Lavender;
+            this.btnEditInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnEditInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnEditInfo.Location = new System.Drawing.Point(18, 45);
             this.btnEditInfo.Name = "btnEditInfo";
             this.btnEditInfo.Size = new System.Drawing.Size(150, 38);
@@ -188,7 +193,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1327, 689);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);

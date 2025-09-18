@@ -45,38 +45,46 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label1.Location = new System.Drawing.Point(50, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Doktor Adı:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label2.Location = new System.Drawing.Point(18, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(152, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Doktor Soyadı:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label3.Location = new System.Drawing.Point(24, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 28);
             this.label3.TabIndex = 2;
             this.label3.Text = "T.C Kimlik No:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label4.Location = new System.Drawing.Point(108, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 28);
             this.label4.TabIndex = 3;
             this.label4.Text = "Şifre:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtName
             // 
@@ -84,6 +92,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(244, 36);
             this.txtName.TabIndex = 4;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtPassword
             // 
@@ -91,6 +100,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(244, 36);
             this.txtPassword.TabIndex = 5;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // txtSurname
             // 
@@ -98,6 +108,7 @@
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(244, 36);
             this.txtSurname.TabIndex = 6;
+            this.txtSurname.TextChanged += new System.EventHandler(this.txtSurname_TextChanged);
             // 
             // mskTC
             // 
@@ -107,15 +118,18 @@
             this.mskTC.Size = new System.Drawing.Size(244, 36);
             this.mskTC.TabIndex = 7;
             this.mskTC.ValidatingType = typeof(int);
+            this.mskTC.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mskTC_MaskInputRejected);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label5.Location = new System.Drawing.Point(27, 213);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(143, 28);
             this.label5.TabIndex = 8;
             this.label5.Text = "Doktor Branş:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // cmbBranch
             // 
@@ -124,10 +138,11 @@
             this.cmbBranch.Name = "cmbBranch";
             this.cmbBranch.Size = new System.Drawing.Size(244, 36);
             this.cmbBranch.TabIndex = 9;
+            this.cmbBranch.SelectedIndexChanged += new System.EventHandler(this.cmbBranch_SelectedIndexChanged);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.Lavender;
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
             this.btnUpdate.Location = new System.Drawing.Point(168, 257);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpdate.Name = "btnUpdate";
@@ -142,7 +157,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(467, 328);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.cmbBranch);

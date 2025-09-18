@@ -107,6 +107,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label2.Location = new System.Drawing.Point(17, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 28);
@@ -116,6 +117,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label1.Location = new System.Drawing.Point(58, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 28);
@@ -135,7 +137,8 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.BackColor = System.Drawing.Color.Lavender;
+            this.btnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnCreate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnCreate.Location = new System.Drawing.Point(22, 279);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(259, 35);
@@ -178,7 +181,8 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.Lavender;
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnSave.Location = new System.Drawing.Point(6, 331);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(271, 37);
@@ -251,6 +255,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label11.Location = new System.Drawing.Point(27, 293);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 28);
@@ -260,6 +265,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label10.Location = new System.Drawing.Point(62, 253);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(49, 28);
@@ -269,6 +275,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label9.Location = new System.Drawing.Point(27, 213);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(84, 28);
@@ -278,6 +285,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label8.Location = new System.Drawing.Point(39, 169);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(72, 28);
@@ -287,6 +295,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label7.Location = new System.Drawing.Point(50, 129);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 28);
@@ -296,6 +305,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label6.Location = new System.Drawing.Point(46, 85);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(65, 28);
@@ -305,6 +315,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.label5.Location = new System.Drawing.Point(75, 42);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(36, 28);
@@ -367,7 +378,8 @@
             // 
             // btnAppointmentList
             // 
-            this.btnAppointmentList.BackColor = System.Drawing.Color.Lavender;
+            this.btnAppointmentList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnAppointmentList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnAppointmentList.Location = new System.Drawing.Point(323, 39);
             this.btnAppointmentList.Name = "btnAppointmentList";
             this.btnAppointmentList.Size = new System.Drawing.Size(164, 40);
@@ -378,7 +390,8 @@
             // 
             // btnBranchPanel
             // 
-            this.btnBranchPanel.BackColor = System.Drawing.Color.Lavender;
+            this.btnBranchPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnBranchPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnBranchPanel.Location = new System.Drawing.Point(167, 39);
             this.btnBranchPanel.Name = "btnBranchPanel";
             this.btnBranchPanel.Size = new System.Drawing.Size(152, 40);
@@ -389,7 +402,8 @@
             // 
             // btnDoctorPanel
             // 
-            this.btnDoctorPanel.BackColor = System.Drawing.Color.Lavender;
+            this.btnDoctorPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.btnDoctorPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.btnDoctorPanel.Location = new System.Drawing.Point(11, 39);
             this.btnDoctorPanel.Name = "btnDoctorPanel";
             this.btnDoctorPanel.Size = new System.Drawing.Size(152, 40);
@@ -400,7 +414,8 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Lavender;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.button1.Location = new System.Drawing.Point(503, 547);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 40);
@@ -414,7 +429,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1070, 642);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox6);

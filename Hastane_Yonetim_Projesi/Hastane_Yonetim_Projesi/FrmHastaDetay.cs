@@ -98,5 +98,10 @@ namespace Hastane_Yonetim_Projesi
             bgl.baglanti().Close();
             MessageBox.Show("Randevunuz Oluşturuldu", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

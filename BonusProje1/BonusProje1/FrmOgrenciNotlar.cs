@@ -18,11 +18,11 @@ namespace BonusProje1
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection(@"Data Source=LENOVO\SQLEXPRESS;Initial Catalog=BonusOkul;Integrated Security=True;Trust Server Certificate=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=LENOVO\SQLEXPRESS;Initial Catalog=BonusOkul;Integrated Security=True;TrustServerCertificate=True");
         public string numara;
         private void FrmOgrenciNotlar_Load(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Select * From TBLNOTLAR where OGRENCIID=@p1", baglanti);
+            SqlCommand komut = new SqlCommand("Select * From TBLNOTLAR where OGRID=@p1", baglanti);
             komut.Parameters.AddWithValue("@p1", numara);
             //this.Text = numara.ToString();
             SqlDataAdapter da = new SqlDataAdapter(komut);

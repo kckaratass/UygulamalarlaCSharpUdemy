@@ -23,5 +23,12 @@ namespace BonusProje1
             fr.numara = textBox1.Text;
             fr.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FrmOgretmen fr = new FrmOgretmen();
+            fr.Show();  
+            this.Hide();
+        }
     }
 }

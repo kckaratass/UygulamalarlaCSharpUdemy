@@ -45,5 +45,39 @@ namespace BonusProje1
             baglanti.Close();
             MessageBox.Show("Kulüp Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtKulupId.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txtKulupAd.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("Delete From TBLKULUPLER where KULUPID=@p1", baglanti);
+            komut.Parameters.AddWithValue("@p1", txtKulupId.Text);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Kulüp Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            listele();
+        }
+
+        private void btnGuncelle_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("Update TBLKULUPLER set KULUPAD=@p1 where KULUPID=@p2", baglanti);    
+            komut.Parameters.AddWithValue("@p1", txtKulupAd.Text);
+            komut.Parameters.AddWithValue("@p2", txtKulupId.Text);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Kulüp Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            listele();
+        }
     }
 }

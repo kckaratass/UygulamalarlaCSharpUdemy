@@ -28,7 +28,7 @@ namespace BonusProje1
         }
         private void FrmKulup_Load(object sender, EventArgs e)
         {
-            listele();
+            alistele();
         }
 
         private void btnListele_Click(object sender, EventArgs e)

@@ -22,5 +22,11 @@ namespace BonusProje1
             FrmKulup fr = new FrmKulup();
             fr.Show();
         }
+
+        private void btnDers_Click(object sender, EventArgs e)
+        {
+            FrmDersler fr = new FrmDersler();
+            fr.Show();
+        }
     }
 }

@@ -57,10 +57,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(499, 19);
+            this.pictureBox6.Location = new System.Drawing.Point(523, 2);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(79, 37);
+            this.pictureBox6.Size = new System.Drawing.Size(49, 45);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 31;
             this.pictureBox6.TabStop = false;
@@ -71,7 +71,7 @@
             this.btnSil.BackColor = System.Drawing.Color.Silver;
             this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSil.ForeColor = System.Drawing.Color.White;
-            this.btnSil.Location = new System.Drawing.Point(368, 490);
+            this.btnSil.Location = new System.Drawing.Point(368, 447);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(180, 45);
             this.btnSil.TabIndex = 30;
@@ -82,7 +82,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(297, 490);
+            this.pictureBox5.Location = new System.Drawing.Point(297, 447);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 45);
@@ -95,7 +95,7 @@
             this.btnEkle.BackColor = System.Drawing.Color.Silver;
             this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEkle.ForeColor = System.Drawing.Color.White;
-            this.btnEkle.Location = new System.Drawing.Point(94, 490);
+            this.btnEkle.Location = new System.Drawing.Point(94, 447);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(180, 45);
             this.btnEkle.TabIndex = 28;
@@ -106,7 +106,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(23, 490);
+            this.pictureBox4.Location = new System.Drawing.Point(23, 447);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(64, 45);
@@ -119,7 +119,7 @@
             this.btnGuncelle.BackColor = System.Drawing.Color.Silver;
             this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuncelle.ForeColor = System.Drawing.Color.White;
-            this.btnGuncelle.Location = new System.Drawing.Point(368, 430);
+            this.btnGuncelle.Location = new System.Drawing.Point(368, 387);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(180, 45);
             this.btnGuncelle.TabIndex = 26;
@@ -130,7 +130,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(297, 430);
+            this.pictureBox3.Location = new System.Drawing.Point(297, 387);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(64, 45);
@@ -143,7 +143,7 @@
             this.btnListele.BackColor = System.Drawing.Color.Silver;
             this.btnListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnListele.ForeColor = System.Drawing.Color.White;
-            this.btnListele.Location = new System.Drawing.Point(94, 430);
+            this.btnListele.Location = new System.Drawing.Point(94, 387);
             this.btnListele.Name = "btnListele";
             this.btnListele.Size = new System.Drawing.Size(180, 45);
             this.btnListele.TabIndex = 24;
@@ -154,7 +154,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(23, 430);
+            this.pictureBox2.Location = new System.Drawing.Point(23, 387);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 45);
@@ -164,7 +164,7 @@
             // 
             // txtDersAd
             // 
-            this.txtDersAd.Location = new System.Drawing.Point(149, 380);
+            this.txtDersAd.Location = new System.Drawing.Point(149, 337);
             this.txtDersAd.Name = "txtDersAd";
             this.txtDersAd.Size = new System.Drawing.Size(399, 30);
             this.txtDersAd.TabIndex = 22;
@@ -172,7 +172,7 @@
             // txtDersId
             // 
             this.txtDersId.Enabled = false;
-            this.txtDersId.Location = new System.Drawing.Point(149, 345);
+            this.txtDersId.Location = new System.Drawing.Point(149, 302);
             this.txtDersId.Name = "txtDersId";
             this.txtDersId.Size = new System.Drawing.Size(399, 30);
             this.txtDersId.TabIndex = 21;
@@ -181,7 +181,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(53, 381);
+            this.label3.Location = new System.Drawing.Point(53, 338);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 25);
             this.label3.TabIndex = 20;
@@ -191,7 +191,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(63, 345);
+            this.label2.Location = new System.Drawing.Point(63, 302);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 25);
             this.label2.TabIndex = 19;
@@ -201,7 +201,7 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 134);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 96);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -214,7 +214,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(122, 69);
+            this.label1.Location = new System.Drawing.Point(122, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(269, 25);
             this.label1.TabIndex = 17;
@@ -223,7 +223,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(23, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(23, 16);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(92, 68);
@@ -236,7 +236,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(575, 554);
+            this.ClientSize = new System.Drawing.Size(575, 509);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.pictureBox5);

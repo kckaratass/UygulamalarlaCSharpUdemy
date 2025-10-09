@@ -38,7 +38,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnOgrenciIslemleri = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -150,18 +150,19 @@
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
             // 
-            // button5
+            // btnOgrenciIslemleri
             // 
-            this.button5.BackColor = System.Drawing.Color.Silver;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.Location = new System.Drawing.Point(129, 315);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(256, 65);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "ÖĞRENCİ İŞLEMLERİ";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnOgrenciIslemleri.BackColor = System.Drawing.Color.Silver;
+            this.btnOgrenciIslemleri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOgrenciIslemleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOgrenciIslemleri.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnOgrenciIslemleri.Location = new System.Drawing.Point(129, 315);
+            this.btnOgrenciIslemleri.Name = "btnOgrenciIslemleri";
+            this.btnOgrenciIslemleri.Size = new System.Drawing.Size(256, 65);
+            this.btnOgrenciIslemleri.TabIndex = 8;
+            this.btnOgrenciIslemleri.Text = "ÖĞRENCİ İŞLEMLERİ";
+            this.btnOgrenciIslemleri.UseVisualStyleBackColor = false;
+            this.btnOgrenciIslemleri.Click += new System.EventHandler(this.btnOgrenciIslemleri_Click);
             // 
             // FrmOgretmen
             // 
@@ -170,7 +171,7 @@
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(394, 399);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnOgrenciIslemleri);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox3);
@@ -204,6 +205,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnOgrenciIslemleri;
     }
 }

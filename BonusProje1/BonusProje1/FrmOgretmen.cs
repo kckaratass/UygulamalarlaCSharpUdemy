@@ -28,5 +28,11 @@ namespace BonusProje1
             FrmDersler fr = new FrmDersler();
             fr.Show();
         }
+
+        private void btnOgrenciIslemleri_Click(object sender, EventArgs e)
+        {
+            FrmOgrenciler fr = new FrmOgrenciler();
+            fr.Show();
+        }
     }
 }

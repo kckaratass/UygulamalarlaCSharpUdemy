@@ -28,7 +28,7 @@ namespace BonusProje1
         }
         private void FrmKulup_Load(object sender, EventArgs e)
         {
-            alistele();
+            listele();
         }
 
         private void btnListele_Click(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace BonusProje1
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

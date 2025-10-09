@@ -64,6 +64,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 31;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // btnSil
             // 
@@ -99,6 +100,7 @@
             this.btnEkle.TabIndex = 28;
             this.btnEkle.Text = "EKLE";
             this.btnEkle.UseVisualStyleBackColor = false;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // pictureBox4
             // 
@@ -145,6 +147,7 @@
             this.btnListele.TabIndex = 24;
             this.btnListele.Text = "LİSTELE";
             this.btnListele.UseVisualStyleBackColor = false;
+            this.btnListele.Click += new System.EventHandler(this.btnListele_Click);
             // 
             // pictureBox2
             // 
@@ -210,9 +213,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(122, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(282, 25);
+            this.label1.Size = new System.Drawing.Size(269, 25);
             this.label1.TabIndex = 17;
-            this.label1.Text = "KULÜP İŞLEMLERİ PANELİ";
+            this.label1.Text = "DERS İŞLEMLERİ PANELİ";
             // 
             // pictureBox1
             // 

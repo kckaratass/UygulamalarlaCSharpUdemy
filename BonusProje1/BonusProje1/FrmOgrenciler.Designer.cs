@@ -38,8 +38,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtOgrenciSoyad = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.Label();
+            this.txtOgrenciSoyad = new System.Windows.Forms.TextBox();
             this.txtOgrenciKulup = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -156,8 +156,8 @@
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.txtOgrenciKulup);
+            this.groupBox1.Controls.Add(this.txt);
             this.groupBox1.Controls.Add(this.txtOgrenciSoyad);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtOgrenciAd);
@@ -168,22 +168,22 @@
             this.groupBox1.TabIndex = 48;
             this.groupBox1.TabStop = false;
             // 
+            // txt
+            // 
+            this.txt.AutoSize = true;
+            this.txt.ForeColor = System.Drawing.Color.White;
+            this.txt.Location = new System.Drawing.Point(20, 100);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(149, 25);
+            this.txt.TabIndex = 39;
+            this.txt.Text = "Öğrenci Soyad:";
+            // 
             // txtOgrenciSoyad
             // 
-            this.txtOgrenciSoyad.AutoSize = true;
-            this.txtOgrenciSoyad.ForeColor = System.Drawing.Color.White;
-            this.txtOgrenciSoyad.Location = new System.Drawing.Point(20, 100);
+            this.txtOgrenciSoyad.Location = new System.Drawing.Point(169, 100);
             this.txtOgrenciSoyad.Name = "txtOgrenciSoyad";
-            this.txtOgrenciSoyad.Size = new System.Drawing.Size(149, 25);
-            this.txtOgrenciSoyad.TabIndex = 39;
-            this.txtOgrenciSoyad.Text = "Öğrenci Soyad:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(169, 100);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 30);
-            this.textBox1.TabIndex = 40;
+            this.txtOgrenciSoyad.Size = new System.Drawing.Size(264, 30);
+            this.txtOgrenciSoyad.TabIndex = 40;
             // 
             // txtOgrenciKulup
             // 
@@ -321,6 +321,7 @@
             this.btnEkle.TabIndex = 56;
             this.btnEkle.Text = "EKLE";
             this.btnEkle.UseVisualStyleBackColor = false;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // pictureBox4
             // 
@@ -367,6 +368,7 @@
             this.btnListele.TabIndex = 52;
             this.btnListele.Text = "LİSTELE";
             this.btnListele.UseVisualStyleBackColor = false;
+            this.btnListele.Click += new System.EventHandler(this.btnListele_Click);
             // 
             // pictureBox2
             // 
@@ -430,8 +432,8 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label txtOgrenciKulup;
-        private System.Windows.Forms.Label txtOgrenciSoyad;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label txt;
+        private System.Windows.Forms.TextBox txtOgrenciSoyad;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnAra;

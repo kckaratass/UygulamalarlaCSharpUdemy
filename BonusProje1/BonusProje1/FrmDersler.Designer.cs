@@ -38,8 +38,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnListele = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.txtKulupAd = new System.Windows.Forms.TextBox();
-            this.txtKulupId = new System.Windows.Forms.TextBox();
+            this.txtDersAd = new System.Windows.Forms.TextBox();
+            this.txtDersId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -77,6 +77,7 @@
             this.btnSil.TabIndex = 30;
             this.btnSil.Text = "SİL";
             this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // pictureBox5
             // 
@@ -124,6 +125,7 @@
             this.btnGuncelle.TabIndex = 26;
             this.btnGuncelle.Text = "GÜNCELLE";
             this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // pictureBox3
             // 
@@ -160,20 +162,20 @@
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
             // 
-            // txtKulupAd
+            // txtDersAd
             // 
-            this.txtKulupAd.Location = new System.Drawing.Point(149, 380);
-            this.txtKulupAd.Name = "txtKulupAd";
-            this.txtKulupAd.Size = new System.Drawing.Size(399, 30);
-            this.txtKulupAd.TabIndex = 22;
+            this.txtDersAd.Location = new System.Drawing.Point(149, 380);
+            this.txtDersAd.Name = "txtDersAd";
+            this.txtDersAd.Size = new System.Drawing.Size(399, 30);
+            this.txtDersAd.TabIndex = 22;
             // 
-            // txtKulupId
+            // txtDersId
             // 
-            this.txtKulupId.Enabled = false;
-            this.txtKulupId.Location = new System.Drawing.Point(149, 345);
-            this.txtKulupId.Name = "txtKulupId";
-            this.txtKulupId.Size = new System.Drawing.Size(399, 30);
-            this.txtKulupId.TabIndex = 21;
+            this.txtDersId.Enabled = false;
+            this.txtDersId.Location = new System.Drawing.Point(149, 345);
+            this.txtDersId.Name = "txtDersId";
+            this.txtDersId.Size = new System.Drawing.Size(399, 30);
+            this.txtDersId.TabIndex = 21;
             // 
             // label3
             // 
@@ -205,6 +207,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(551, 193);
             this.dataGridView1.TabIndex = 18;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label1
             // 
@@ -243,8 +246,8 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.btnListele);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.txtKulupAd);
-            this.Controls.Add(this.txtKulupId);
+            this.Controls.Add(this.txtDersAd);
+            this.Controls.Add(this.txtDersId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
@@ -280,8 +283,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnListele;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox txtKulupAd;
-        private System.Windows.Forms.TextBox txtKulupId;
+        private System.Windows.Forms.TextBox txtDersAd;
+        private System.Windows.Forms.TextBox txtDersId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;

@@ -22,5 +22,11 @@ namespace EntityProjeUygulama
             Form1 frm = new Form1();
             frm.Show();
         }
+
+        private void btnUrunIslemleri_Click(object sender, EventArgs e)
+        {
+            FrmUrun frm = new FrmUrun();
+            frm.Show();
+        }
     }
 }

@@ -51,6 +51,7 @@
             this.btnUrunIslemleri.TabIndex = 1;
             this.btnUrunIslemleri.Text = "ÜRÜN İŞLEMLERİ";
             this.btnUrunIslemleri.UseVisualStyleBackColor = true;
+            this.btnUrunIslemleri.Click += new System.EventHandler(this.btnUrunIslemleri_Click);
             // 
             // btnIstatistik
             // 
@@ -74,6 +75,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmAnaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }

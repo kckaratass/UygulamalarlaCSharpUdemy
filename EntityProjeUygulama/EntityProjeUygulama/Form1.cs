@@ -37,5 +37,23 @@ namespace EntityProjeUygulama
             db.SaveChanges();
            MessageBox.Show("Kategori Eklendi");
         }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtKategoriId.Text);
+            var ktgr = db.TBLKATEGORI.Find(id);
+            db.TBLKATEGORI.Remove(ktgr);
+            db.SaveChanges();
+            MessageBox.Show("Kategori Silindi");
+        }
+
+        private void btnGuncelle_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtKategoriId.Text);
+            var ktgr = db.TBLKATEGORI.Find(id);
+            ktgr.AD = txtKategoriAd.Text;
+            db.SaveChanges();
+            MessageBox.Show("Kategori Güncellendi");
+        }
     }
 }

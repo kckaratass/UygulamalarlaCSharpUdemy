@@ -28,5 +28,14 @@ namespace EntityProjeUygulama
             var kategoriler = db.TBLKATEGORI.ToList();
             dataGridView1.DataSource = kategoriler;
         }
+
+        private void btnEkle_Click(object sender, EventArgs e)
+        {
+            TBLKATEGORI t = new TBLKATEGORI();
+            t.AD = txtKategoriAd.Text;
+            db.TBLKATEGORI.Add(t);
+            db.SaveChanges();
+           MessageBox.Show("Kategori Eklendi");
+        }
     }
 }

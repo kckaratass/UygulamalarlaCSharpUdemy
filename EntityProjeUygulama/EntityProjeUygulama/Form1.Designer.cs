@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtKategoriId = new System.Windows.Forms.TextBox();
+            this.txtKategoriAd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnListele = new System.Windows.Forms.Button();
             this.btnEkle = new System.Windows.Forms.Button();
@@ -49,19 +49,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Kategori Id:";
             // 
-            // textBox1
+            // txtKategoriId
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 30);
-            this.textBox1.TabIndex = 1;
+            this.txtKategoriId.Location = new System.Drawing.Point(148, 29);
+            this.txtKategoriId.Name = "txtKategoriId";
+            this.txtKategoriId.Size = new System.Drawing.Size(164, 30);
+            this.txtKategoriId.TabIndex = 1;
             // 
-            // textBox2
+            // txtKategoriAd
             // 
-            this.textBox2.Location = new System.Drawing.Point(148, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(164, 30);
-            this.textBox2.TabIndex = 3;
+            this.txtKategoriAd.Location = new System.Drawing.Point(148, 65);
+            this.txtKategoriAd.Name = "txtKategoriAd";
+            this.txtKategoriAd.Size = new System.Drawing.Size(164, 30);
+            this.txtKategoriAd.TabIndex = 3;
             // 
             // label2
             // 
@@ -90,6 +90,7 @@
             this.btnEkle.TabIndex = 5;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnSil
             // 
@@ -111,6 +112,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(342, 29);
             this.dataGridView1.Name = "dataGridView1";
@@ -129,9 +131,9 @@
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.btnListele);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtKategoriAd);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtKategoriId);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -147,8 +149,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtKategoriId;
+        private System.Windows.Forms.TextBox txtKategoriAd;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnListele;
         private System.Windows.Forms.Button btnEkle;

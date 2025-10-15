@@ -38,13 +38,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtOgrenciKulup = new System.Windows.Forms.Label();
             this.txt = new System.Windows.Forms.Label();
             this.txtOgrenciSoyad = new System.Windows.Forms.TextBox();
-            this.txtOgrenciKulup = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnAra = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -168,6 +168,59 @@
             this.groupBox1.TabIndex = 48;
             this.groupBox1.TabStop = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(7, 179);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(162, 25);
+            this.label6.TabIndex = 45;
+            this.label6.Text = "Öğrenci Cinsiyet:";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Location = new System.Drawing.Point(240, 178);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(83, 29);
+            this.radioButton2.TabIndex = 44;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Erkek";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Location = new System.Drawing.Point(176, 177);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(61, 29);
+            this.radioButton1.TabIndex = 43;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Kız";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(169, 137);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(264, 33);
+            this.comboBox1.TabIndex = 42;
+            // 
+            // txtOgrenciKulup
+            // 
+            this.txtOgrenciKulup.AutoSize = true;
+            this.txtOgrenciKulup.ForeColor = System.Drawing.Color.White;
+            this.txtOgrenciKulup.Location = new System.Drawing.Point(10, 140);
+            this.txtOgrenciKulup.Name = "txtOgrenciKulup";
+            this.txtOgrenciKulup.Size = new System.Drawing.Size(159, 25);
+            this.txtOgrenciKulup.TabIndex = 41;
+            this.txtOgrenciKulup.Text = "Öğrenci Kulübü: ";
+            // 
             // txt
             // 
             this.txt.AutoSize = true;
@@ -184,60 +237,6 @@
             this.txtOgrenciSoyad.Name = "txtOgrenciSoyad";
             this.txtOgrenciSoyad.Size = new System.Drawing.Size(264, 30);
             this.txtOgrenciSoyad.TabIndex = 40;
-            // 
-            // txtOgrenciKulup
-            // 
-            this.txtOgrenciKulup.AutoSize = true;
-            this.txtOgrenciKulup.ForeColor = System.Drawing.Color.White;
-            this.txtOgrenciKulup.Location = new System.Drawing.Point(10, 140);
-            this.txtOgrenciKulup.Name = "txtOgrenciKulup";
-            this.txtOgrenciKulup.Size = new System.Drawing.Size(159, 25);
-            this.txtOgrenciKulup.TabIndex = 41;
-            this.txtOgrenciKulup.Text = "Öğrenci Kulübü: ";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(169, 137);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(264, 33);
-            this.comboBox1.TabIndex = 42;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(176, 177);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(61, 29);
-            this.radioButton1.TabIndex = 43;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Kız";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Location = new System.Drawing.Point(240, 178);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(83, 29);
-            this.radioButton2.TabIndex = 44;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Erkek";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(7, 179);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 25);
-            this.label6.TabIndex = 45;
-            this.label6.Text = "Öğrenci Cinsiyet:";
             // 
             // groupBox2
             // 
@@ -300,6 +299,7 @@
             this.btnSil.TabIndex = 59;
             this.btnSil.Text = "SİL";
             this.btnSil.UseVisualStyleBackColor = false;
+//            this.btnSil.Click += new System.EventHandler(this.btnSil_Click_1);
             // 
             // pictureBox5
             // 

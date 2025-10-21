@@ -16,5 +16,12 @@ namespace EntityProjeUygulama
         {
             InitializeComponent();
         }
+
+        DbEntityUrunEntities db = new DbEntityUrunEntities();
+        private void FrmIstatistik_Load(object sender, EventArgs e)
+        {
+            label2.Text = db.TBLKATEGORI.Count().ToString();
+            label3.Text = db.TBLURUN.Count().ToString();
+        }
     }
 }

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -88,17 +88,6 @@
             this.panel1.Size = new System.Drawing.Size(250, 133);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.label1.Location = new System.Drawing.Point(11, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Toplam Kategori Sayısı";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -109,6 +98,17 @@
             this.label2.Size = new System.Drawing.Size(48, 57);
             this.label2.TabIndex = 1;
             this.label2.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.label1.Location = new System.Drawing.Point(11, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(225, 28);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Toplam Kategori Sayısı";
             // 
             // panel2
             // 
@@ -253,7 +253,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.label11.Location = new System.Drawing.Point(99, 64);
+            this.label11.Location = new System.Drawing.Point(14, 64);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(48, 57);
             this.label11.TabIndex = 1;
@@ -360,11 +360,11 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.label18.Location = new System.Drawing.Point(96, 23);
+            this.label18.Location = new System.Drawing.Point(5, 23);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(55, 28);
+            this.label18.Size = new System.Drawing.Size(236, 28);
             this.label18.TabIndex = 0;
-            this.label18.Text = "label";
+            this.label18.Text = "Toplam Buzdolabı Sayısı";
             // 
             // panel10
             // 
@@ -381,7 +381,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.label19.Location = new System.Drawing.Point(99, 64);
+            this.label19.Location = new System.Drawing.Point(24, 64);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(48, 57);
             this.label19.TabIndex = 1;
@@ -413,7 +413,7 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Segoe UI Semibold", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.label21.Location = new System.Drawing.Point(99, 64);
+            this.label21.Location = new System.Drawing.Point(9, 64);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(48, 57);
             this.label21.TabIndex = 1;
@@ -484,6 +484,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmIstatistik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "İstatistik Paneli";
             this.Load += new System.EventHandler(this.FrmIstatistik_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

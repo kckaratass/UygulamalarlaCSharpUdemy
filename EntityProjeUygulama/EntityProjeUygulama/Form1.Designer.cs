@@ -43,7 +43,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 34);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(28, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 25);
             this.label1.TabIndex = 0;
@@ -51,14 +52,14 @@
             // 
             // txtKategoriId
             // 
-            this.txtKategoriId.Location = new System.Drawing.Point(148, 29);
+            this.txtKategoriId.Location = new System.Drawing.Point(148, 34);
             this.txtKategoriId.Name = "txtKategoriId";
             this.txtKategoriId.Size = new System.Drawing.Size(164, 30);
             this.txtKategoriId.TabIndex = 1;
             // 
             // txtKategoriAd
             // 
-            this.txtKategoriAd.Location = new System.Drawing.Point(148, 65);
+            this.txtKategoriAd.Location = new System.Drawing.Point(148, 70);
             this.txtKategoriAd.Name = "txtKategoriAd";
             this.txtKategoriAd.Size = new System.Drawing.Size(164, 30);
             this.txtKategoriAd.TabIndex = 3;
@@ -66,14 +67,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(25, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 25);
+            this.label2.Size = new System.Drawing.Size(115, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Kategori Ad:";
             // 
             // btnListele
             // 
+            this.btnListele.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnListele.Location = new System.Drawing.Point(30, 112);
             this.btnListele.Name = "btnListele";
             this.btnListele.Size = new System.Drawing.Size(138, 36);
@@ -84,6 +87,7 @@
             // 
             // btnEkle
             // 
+            this.btnEkle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEkle.Location = new System.Drawing.Point(174, 112);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(138, 36);
@@ -94,6 +98,7 @@
             // 
             // btnSil
             // 
+            this.btnSil.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSil.Location = new System.Drawing.Point(30, 154);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(138, 36);
@@ -104,6 +109,7 @@
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuncelle.Location = new System.Drawing.Point(174, 154);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(138, 36);
@@ -127,6 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(1016, 216);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnGuncelle);
@@ -140,7 +147,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "İşlem Paneli";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

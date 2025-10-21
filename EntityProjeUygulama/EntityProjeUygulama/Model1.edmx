@@ -80,6 +80,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="MARKAGETIR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <EntityContainer Name="DbEntityUrunModelStoreContainer">
           <EntitySet Name="TBLKATEGORI" EntityType="Self.TBLKATEGORI" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLMUSTERI" EntityType="Self.TBLMUSTERI" Schema="dbo" store:Type="Tables" />
@@ -200,6 +201,7 @@
             <End Role="TBLURUN" EntitySet="TBLURUN" />
             <End Role="TBLSATIS" EntitySet="TBLSATIS" />
           </AssociationSet>
+          <FunctionImport Name="MARKAGETIR" ReturnType="Collection(String)" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
@@ -250,6 +252,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="MARKAGETIR" FunctionName="DbEntityUrunModel.Store.MARKAGETIR" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

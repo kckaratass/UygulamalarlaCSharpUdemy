@@ -54,22 +54,23 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 25);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(35, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 25);
+            this.label1.Size = new System.Drawing.Size(92, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ürün ID:";
             // 
             // txtUrunId
             // 
-            this.txtUrunId.Location = new System.Drawing.Point(124, 26);
+            this.txtUrunId.Location = new System.Drawing.Point(132, 26);
             this.txtUrunId.Name = "txtUrunId";
             this.txtUrunId.Size = new System.Drawing.Size(206, 30);
             this.txtUrunId.TabIndex = 1;
             // 
             // txtUrunAd
             // 
-            this.txtUrunAd.Location = new System.Drawing.Point(124, 62);
+            this.txtUrunAd.Location = new System.Drawing.Point(132, 62);
             this.txtUrunAd.Name = "txtUrunAd";
             this.txtUrunAd.Size = new System.Drawing.Size(206, 30);
             this.txtUrunAd.TabIndex = 3;
@@ -77,22 +78,23 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(24, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 25);
+            this.label2.Size = new System.Drawing.Size(103, 30);
             this.label2.TabIndex = 2;
             this.label2.Text = "Ürün Adı:";
             // 
             // txtStokSayisi
             // 
-            this.txtStokSayisi.Location = new System.Drawing.Point(124, 134);
+            this.txtStokSayisi.Location = new System.Drawing.Point(132, 134);
             this.txtStokSayisi.Name = "txtStokSayisi";
             this.txtStokSayisi.Size = new System.Drawing.Size(206, 30);
             this.txtStokSayisi.TabIndex = 5;
             // 
             // txtMarka
             // 
-            this.txtMarka.Location = new System.Drawing.Point(124, 98);
+            this.txtMarka.Location = new System.Drawing.Point(132, 98);
             this.txtMarka.Name = "txtMarka";
             this.txtMarka.Size = new System.Drawing.Size(206, 30);
             this.txtMarka.TabIndex = 4;
@@ -100,33 +102,36 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(2, 135);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(9, 135);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 25);
+            this.label3.Size = new System.Drawing.Size(119, 30);
             this.label3.TabIndex = 7;
             this.label3.Text = "Stok Sayısı:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 99);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(47, 99);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 25);
+            this.label4.Size = new System.Drawing.Size(79, 30);
             this.label4.TabIndex = 6;
             this.label4.Text = "Marka:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(42, 242);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 25);
+            this.label6.Size = new System.Drawing.Size(84, 30);
             this.label6.TabIndex = 14;
             this.label6.Text = "Durum:";
             // 
             // txtDurum
             // 
-            this.txtDurum.Location = new System.Drawing.Point(124, 242);
+            this.txtDurum.Location = new System.Drawing.Point(132, 242);
             this.txtDurum.Name = "txtDurum";
             this.txtDurum.Size = new System.Drawing.Size(206, 30);
             this.txtDurum.TabIndex = 12;
@@ -134,15 +139,16 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(27, 206);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 25);
+            this.label7.Size = new System.Drawing.Size(100, 30);
             this.label7.TabIndex = 10;
             this.label7.Text = "Kategori:";
             // 
             // txtUrunFiyati
             // 
-            this.txtUrunFiyati.Location = new System.Drawing.Point(124, 170);
+            this.txtUrunFiyati.Location = new System.Drawing.Point(132, 170);
             this.txtUrunFiyati.Name = "txtUrunFiyati";
             this.txtUrunFiyati.Size = new System.Drawing.Size(206, 30);
             this.txtUrunFiyati.TabIndex = 9;
@@ -150,14 +156,16 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(7, 170);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 25);
+            this.label8.Size = new System.Drawing.Size(121, 30);
             this.label8.TabIndex = 8;
             this.label8.Text = "Ürün Fiyatı:";
             // 
             // btnListele
             // 
+            this.btnListele.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnListele.Location = new System.Drawing.Point(399, 26);
             this.btnListele.Name = "btnListele";
             this.btnListele.Size = new System.Drawing.Size(159, 45);
@@ -168,6 +176,7 @@
             // 
             // btnEkle
             // 
+            this.btnEkle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEkle.Location = new System.Drawing.Point(399, 77);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(159, 45);
@@ -178,6 +187,7 @@
             // 
             // btnSil
             // 
+            this.btnSil.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Location = new System.Drawing.Point(399, 128);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(159, 45);
@@ -188,6 +198,7 @@
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelle.Location = new System.Drawing.Point(399, 179);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(159, 45);
@@ -198,6 +209,7 @@
             // 
             // btnTemizle
             // 
+            this.btnTemizle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTemizle.Location = new System.Drawing.Point(399, 230);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(159, 45);
@@ -218,7 +230,7 @@
             // cmbKategori
             // 
             this.cmbKategori.FormattingEnabled = true;
-            this.cmbKategori.Location = new System.Drawing.Point(124, 204);
+            this.cmbKategori.Location = new System.Drawing.Point(132, 204);
             this.cmbKategori.Name = "cmbKategori";
             this.cmbKategori.Size = new System.Drawing.Size(206, 33);
             this.cmbKategori.TabIndex = 22;
@@ -227,6 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(604, 528);
             this.Controls.Add(this.cmbKategori);
             this.Controls.Add(this.dataGridView1);
@@ -254,6 +267,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmUrun";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ürün Paneli";
             this.Load += new System.EventHandler(this.FrmUrun_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

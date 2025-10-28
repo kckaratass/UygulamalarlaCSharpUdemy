@@ -13,7 +13,7 @@ namespace DataAccessLayer
         public static List<EntityPersonel> PersonelListesi()
         {
             List<EntityPersonel> degerler = new List<EntityPersonel>();
-            SqlCommand komut1 = new SqlCommand("Select * from TBLBILGI", Baglanti.bgl);
+            var komut1 = new SqlCommand("Select * from TBLBILGI", Baglanti.bgl);
 
             if (komut1.Connection.State != System.Data.ConnectionState.Open)
             {
@@ -35,6 +35,24 @@ namespace DataAccessLayer
             dr.Close();
             return degerler;
 
+        }
+
+        public static int PersonelEkle(EntityPersonel p)
+        {
+            SqlCommand komut2 = new SqlCommand("insert into TBLBILGI (AD,SOYAD,SEHIR,GOREV,MAAS) values (@p1,@p2,@p3,@p4,@p5)", Baglanti.bgl);
+            
+            if (komut2.Connection.State != System.Data.ConnectionState.Open)
+            {
+                komut2.Connection.Open();
+            }
+
+            komut2.Parameters.AddWithValue("@p1", p.Ad);
+            komut2.Parameters.AddWithValue("@p2", p.Soyad);
+            komut2.Parameters.AddWithValue("@p3", p.Sehir);
+            komut2.Parameters.AddWithValue("@p4", p.Gorev);
+            komut2.Parameters.AddWithValue("@p5", p.Maas);
+
+            return komut2.ExecuteNonQuery();
         }
     }
 }

@@ -9,7 +9,7 @@ namespace DataAccessLayer
 {
     public class Baglanti
     {
-        public static SqlConnection bgl = new SqlConnection(@"Data Source=LENOVO\SQLEXPRESS;Initial Catalog=DbPersonel;Integrated Security=True;Trust Server Certificate=True");
+        public static SqlConnection bgl = new SqlConnection(@"Data Source=LENOVO\SQLEXPRESS;Initial Catalog=DbPersonel;Integrated Security=True;TrustServerCertificate=True");
 
     }
 }

@@ -31,6 +31,7 @@ namespace EntityProjeUygulama
         public virtual DbSet<TBLMUSTERI> TBLMUSTERI { get; set; }
         public virtual DbSet<TBLSATIS> TBLSATIS { get; set; }
         public virtual DbSet<TBLURUN> TBLURUN { get; set; }
+        public virtual DbSet<TBLADMIN> TBLADMIN { get; set; }
     
         public virtual ObjectResult<string> MARKAGETIR()
         {

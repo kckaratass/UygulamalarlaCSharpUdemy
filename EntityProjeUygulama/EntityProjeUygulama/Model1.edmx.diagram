@@ -12,6 +12,7 @@
         <AssociationConnector Association="DbEntityUrunModel.FK_TBLURUN_TBLKATEGORI" ManuallyRouted="false" />
         <AssociationConnector Association="DbEntityUrunModel.FK_TBLSATIS_TBLMUSTERI" ManuallyRouted="false" />
         <AssociationConnector Association="DbEntityUrunModel.FK_TBLSATIS_TBLURUN" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbEntityUrunModel.TBLADMIN" Width="1.5" PointX="5.375" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
